@@ -3,10 +3,7 @@ package main
 import (
 	"fmt"
 	"io/ioutil"
-	"log"
 	"net/http"
-	"os"
-	"path/filepath"
 	"regexp"
 )
 
@@ -45,17 +42,12 @@ func gethtml() string {
 }
 
 func main() {
-	// startup()
-	// port := ":8080"
-	// http.HandleFunc("/", handler)
-	// http.ListenAndServe(port, nil)
+	startup()
+	port := ":8080"
+	http.HandleFunc("/", handler)
+	http.ListenAndServe(port, nil)
 	// fmt.Println(port)
 	// fmt.Print(gethtml())
-	dir, err := filepath.Abs(filepath.Dir(os.Args[0]))
-	if err != nil {
-		log.Fatal(err)
-	}
-	fmt.Println(dir)
 }
 func startup() {
 	resp, err := http.Get(url)
