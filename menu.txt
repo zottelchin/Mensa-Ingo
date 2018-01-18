@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<!-- 
+www.studentenwerk-magdeburg.de
+Studentenwerk Magdeburg, Grafik- und Medienwerkstatt Mirko Stage Magdeburg
+//-->
+<html lang="de-DE">
+<head>
+<meta name="viewport" content="width=device-width" />
+<meta charset="UTF-8" />
+<meta name="description" content="Ihr Partner rund ums Studium mit 5 Mensen, 7 Cafeterien, 19 Wohnheimen, Beratungsangeboten & Kinderbetreuungseinrichtungen in Magdeburg, Stendal, Wernigerode, Halberstadt und Friedensau.">
+<meta name="keywords" content="Student, studieren, Studium, Uni, Universitaet, Hochschule, Mensa, Wohnheim, BAfoeG, Kita, CampusKinderzimmer, Magdeburg, Stendal, Friedensau, Wernigerode, Halberstadt, Harz">
+<meta name="author" content="Mirko Stage, Grafik- und Medienwerkstatt Magdeburg">
+<meta name="publisher" content="Mirko Stage, Grafik- und Medienwerkstatt Magdeburg">
+<meta name="robots" content="index,follow">
+<title>Heute in unseren Mensen | Studentenwerk Magdeburg</title>
+
+<link rel="stylesheet" href="https://www.studentenwerk-magdeburg.de/wp-content/plugins/sitepress-multilingual-cms/res/css/language-selector.css?v=3.1.9.7" type="text/css" media="all" />
+<!-- <link rel="profile" href="http://gmpg.org/xfn/11" /> -->
+<link rel="stylesheet" type="text/css" media="screen,print" href="https://www.studentenwerk-magdeburg.de/wp-content/themes/swmd2012/style.css" />
+
+
+   <link rel="shortcut icon" href="/favicon.ico" >
+   <link rel="icon" type="image/gif" href="/animated_favicon1.gif" >
+<link rel="stylesheet" type="text/css" media="handheld" href="https://www.studentenwerk-magdeburg.de/wp-content/themes/swmd2012/style_mobile.css" />
+<link rel="stylesheet" type="text/css" media="all" href="https://www.studentenwerk-magdeburg.de/wp-content/themes/swmd2012/stylegreen.css" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"https:\/\/www.studentenwerk-magdeburg.de\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.3"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='https://www.studentenwerk-magdeburg.de/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='events-manager-css'  href='https://www.studentenwerk-magdeburg.de/wp-content/plugins/events-manager/includes/css/events_manager.css?ver=5.6624' type='text/css' media='all' />
+<link rel='stylesheet' id='spu-public-css-css'  href='https://www.studentenwerk-magdeburg.de/wp-content/plugins/popups/public/assets/css/public.css?ver=1.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-downloadmanager-css'  href='https://www.studentenwerk-magdeburg.de/wp-content/plugins/wp-downloadmanager/download-css.css?ver=1.68.1' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.studentenwerk-magdeburg.de/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://www.studentenwerk-magdeburg.de/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://www.studentenwerk-magdeburg.de/wp-content/plugins/font-resizer/js/jquery.cookie.js?ver=4.5.3'></script>
+<script type='text/javascript' src='https://www.studentenwerk-magdeburg.de/wp-content/plugins/font-resizer/js/jquery.fontsize.js?ver=4.5.3'></script>
+<script type='text/javascript' src='https://www.studentenwerk-magdeburg.de/wp-content/plugins/font-resizer/js/main.js?ver=4.5.3'></script>
+<script type='text/javascript' src='https://www.studentenwerk-magdeburg.de/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.studentenwerk-magdeburg.de/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.studentenwerk-magdeburg.de/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.studentenwerk-magdeburg.de/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.studentenwerk-magdeburg.de/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.studentenwerk-magdeburg.de/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.studentenwerk-magdeburg.de/wp-includes/js/jquery/ui/menu.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.studentenwerk-magdeburg.de/wp-includes/js/wp-a11y.min.js?ver=4.5.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var uiAutocompleteL10n = {"noResults":"Keine Suchergebnisse.","oneResult":"1 Ergebnis gefunden. Benutze die Pfeiltasten zum Navigieren.","manyResults":"%d Ergebnisse gefunden. Benutze die Pfeiltasten zum Navigieren."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.studentenwerk-magdeburg.de/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.studentenwerk-magdeburg.de/wp-includes/js/jquery/ui/resizable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.studentenwerk-magdeburg.de/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.studentenwerk-magdeburg.de/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.studentenwerk-magdeburg.de/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var EM = {"ajaxurl":"https:\/\/www.studentenwerk-magdeburg.de\/wp-admin\/admin-ajax.php","locationajaxurl":"https:\/\/www.studentenwerk-magdeburg.de\/wp-admin\/admin-ajax.php?action=locations_search","firstDay":"1","locale":"de","dateFormat":"dd.mm.yy","ui_css":"https:\/\/www.studentenwerk-magdeburg.de\/wp-content\/plugins\/events-manager\/includes\/css\/jquery-ui.min.css","show24hours":"1","is_ssl":"1","txt_search":"Suche","txt_searching":"Suche...","txt_loading":"Lade...","locale_data":{"closeText":"schlie\u00dfen","prevText":"<zur\u00fcck","nextText":"Vor>","currentText":"heute","monthNames":["Januar","Februar","M\u00e4rz","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"],"monthNamesShort":["Jan","Feb","M\u00e4r","Apr","Mai","Jun","Jul","Aug","Sep","Okt","Nov","Dez"],"dayNames":["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"],"dayNamesShort":["So","Mo","Di","Mi","Do","Fr","Sa"],"dayNamesMin":["So","Mo","Di","Mi","Do","Fr","Sa"],"weekHeader":"Wo","dateFormat":"dd.mm.yy","firstDay":1,"isRTL":false,"showMonthAfterYear":false,"yearSuffix":""}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.studentenwerk-magdeburg.de/wp-content/plugins/events-manager/includes/js/events-manager.js?ver=5.6624'></script>
+<script type='text/javascript' src='https://www.studentenwerk-magdeburg.de/wp-content/plugins/useful-banner-manager/scripts.js?ver=4.5.3'></script>
+<link rel='https://api.w.org/' href='https://www.studentenwerk-magdeburg.de/wp-json/' />
+<link rel="alternate" type="application/json+oembed" href="https://www.studentenwerk-magdeburg.de/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.studentenwerk-magdeburg.de%2Fmensen-cafeterien%2Fheute-in-unseren-mensen%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.studentenwerk-magdeburg.de/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.studentenwerk-magdeburg.de%2Fmensen-cafeterien%2Fheute-in-unseren-mensen%2F&#038;format=xml" />
+<meta name="generator" content="WPML ver:3.1.9.7 stt:3,1;0" />
+<link rel="alternate" hreflang="de-DE" href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/heute-in-unseren-mensen/" />
+<link rel="alternate" hreflang="en-US" href="https://www.studentenwerk-magdeburg.de/en/canteens-cafeterias/today-in-our-canteens/" />
+
+<!--Plugin WP Overview (lite) 2011.0723.2011 Active-->
+<style type="text/css">#lang_sel a, #lang_sel a.lang_sel_sel{color:#888888;}#lang_sel a:hover, #lang_sel a.lang_sel_sel:hover{color:#000000;}#lang_sel a.lang_sel_sel, #lang_sel a.lang_sel_sel:visited{background-color:#ffffff;}#lang_sel a.lang_sel_sel:hover{background-color:#eeeeee;}#lang_sel li ul a, #lang_sel li ul a:visited{color:#888888;}#lang_sel li ul a:hover{color:#000000;}#lang_sel li ul a, #lang_sel li ul a:link, #lang_sel li ul a:visited{background-color:#ffffff;}#lang_sel li ul a:hover{background-color:#eeeeee;}#lang_sel a, #lang_sel a:visited{border-color:#ffffff;} #lang_sel ul ul{border-top:1px solid #ffffff;}</style>
+
+<style type="text/css">#lang_sel, #lang_sel ul, #lang_sel ul li, .lang_sel_sel  {width: 90px;}
+#lang_sel ul li img {
+	position: relative;
+	border: 1px solid #bfbfbf;
+	top: 2px;margin-top:1px;
+}
+#lang_sel a, #lang_sel a:link, #lang_sel a:visited {
+	display:block;
+	text-decoration:none !important;
+	border:none;
+	padding: 2px 2px;
+	line-height:21px;
+background:none;
+width: 80px;
+	}					
+</style><meta property="og:type" content="article" /><meta property="og:url" content="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/heute-in-unseren-mensen/" /><meta property="og:title" content="Heute in unseren Mensen" /><meta property="og:image" content="https://www.studentenwerk-magdeburg.de/wp-content/uploads/2015/09/heute_mensen-300x300.jpg" /><meta property="og:description" content="Heutiges Angebot in unseren Mensen Der heutige Speiseplan für alle Mensen im Überblick! Mensa UniCampus Magdeburg, unterer Saal Mensa UniCampus Magdeburg, oberer Saal Mensa Kellercafe Zschokkestraße Magdeburg Mensa Herrenkrug Magdeburg Mensa Stendal Mensa Wernigerode Mensa DomCafete Halberstadt" /><meta property="article:author" content="https://www.facebook.com/stuwemd" /><meta property="article:publisher" content="https://www.facebook.com/stuwemd" /></head>
+<body class="page page-id-6127 page-child parent-pageid-22 page-template-default custom-background">
+<div id="wrapper" class="hfeed">
+	<div id="header">
+		<div id="masthead">
+			<div id="branding" role="banner">
+<div class="topheadleft">
+<a href="/">Studentenwerk Magdeburg</a></div>
+<div class="topheadright">
+<div class="topheadlink">
+<div id="lang_sel"   >
+				<ul>
+						<li><a href="#" class="lang_sel_sel icl-de"><img  class="iclflag" src="https://www.studentenwerk-magdeburg.de/wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png" alt="de"  title="Deutsch" />                                
+								&nbsp;Deutsch</a> <ul><li class="icl-en">          
+				<a href="https://www.studentenwerk-magdeburg.de/en/canteens-cafeterias/today-in-our-canteens/"><img  class="iclflag" src="https://www.studentenwerk-magdeburg.de/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" alt="en" title="English" />&nbsp;English</a>
+				</li></ul></li>
+				</ul>    
+		</div>
+</div>
+<div class="topheadlink">
+<span class="nopocket"><a href="?_mobile">[Einfache Version]</a></span>
+</div>
+<div class="topheadlink">
+<ul><li class="fontResizer" style="text-align: center; font-weight: bold;"><a class="fontResizer_minus" href="#" title="Decrease font size" style="font-size: 0.7em;">A</a> <a class="fontResizer_reset" href="#" title="Reset font size">A</a> <a class="fontResizer_add" href="#" title="Increase font size" style="font-size: 1.2em;">A</a> <input type="hidden" id="fontResizer_value" value="body" /><input type="hidden" id="fontResizer_ownid" value="" /><input type="hidden" id="fontResizer_ownelement" value="" /><input type="hidden" id="fontResizer_resizeSteps" value="1.6" /><input type="hidden" id="fontResizer_cookieTime" value="31" /><input type="hidden" id="fontResizer_maxFontsize" value="" /></li></ul></div>
+<div class="topheadlink">
+<a href="/feed">[RSS]</a>
+</div>
+<div class="topheadlink">
+<a href="#" onclick="window.print();">[drucken]</a></div>
+<div class="topheadlink">
+<form role="search" method="get" id="searchform" class="searchform" action="https://www.studentenwerk-magdeburg.de/">
+				<div>
+					<label class="screen-reader-text" for="s">Suche nach:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Suche" />
+				</div>
+			<input type='hidden' name='lang' value='de' /></form></div>
+</div>
+									<img src="https://www.studentenwerk-magdeburg.de/wp-content/uploads/2015/10/25jahre_header04.jpg" alt="Titelbild" title="Titelbild" />
+								</div>
+			<div id="access" role="navigation">
+				<div class="skip-link screen-reader-text"><a href="#content" title="Springen Sie zum Inhalt">Springen Sie zum Inhalt</a></div>
+				<div class="menu-header">
+				<ul><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-79"><a href="https://www.studentenwerk-magdeburg.de/">Studentenwerk</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-197"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/ueber-uns/">Über uns</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2497"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/ueber-uns/verwaltungsrat/">Verwaltungsrat</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6392"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/ueber-uns/personalrat/">Personalrat</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/infopoint-mensa-unicampus/">Infopoint Mensa UniCampus</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/infopoint-mensa-herrenkrug/">Infopoint Mensa Herrenkrug</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-731"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/beratungsstelle-wernigerode/">Beratungsstelle Wernigerode</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-726"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/lageplan/">Lageplan</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1202"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/stellenangebote/">Stellenangebote</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1203"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/dokumente/">Dokumente</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4610"><a href="https://www.studentenwerk-magdeburg.de/category/allgemein/">Newsarchiv</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-413"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/ansprechpartner/">Ansprechpartner</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-194"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/impressum/">Impressum</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2000"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/kontakt/">Kontakt</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-77"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/">Finanzierung</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-405"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/bafog/">BAföG</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8968"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/bafog/mehrbafoeg/">Mehr BAföG 2016</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1459"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/bafog/bafog-antrag/">BAföG-Antrag</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9115"><a target="_blank" href="https://www.bafoeg-sachsen-anhalt.de/BAfoeGOnline/ABAfoeG/">BAföG Online</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-545"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/bafog/abc/">BAföG-ABC</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7622"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/sprechstunde/">BAföG-Sprechstunde</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9729"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/widerspruchstelle/">Widerspruchstelle</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-487"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/stipendien/">Stipendien</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-484"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/kfw-studienkredit/">KfW–Studienkredit</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-485"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/bildungskredit/">Bildungskredit</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-486"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/studentenwerkskredite/">Studentenwerkskredite</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-483"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/bankdarlehen/">Bankdarlehen</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-482"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/dokumente/">Dokumente</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4587"><a href="https://www.studentenwerk-magdeburg.de/category/finanzierung/">Newsarchiv</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-481"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/ansprechpartner/">Ansprechpartner &#038; Sprechzeiten</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1480"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/kontakt/">Kontaktformular</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1033"><a href="https://www.studentenwerk-magdeburg.de/wohnen/">Wohnen</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-235"><a href="https://www.studentenwerk-magdeburg.de/wohnen/magdeburg/">in Magdeburg</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234"><a href="https://www.studentenwerk-magdeburg.de/wohnen/wernigerode/">in Wernigerode</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8575"><a href="https://www.studentenwerk-magdeburg.de/wohnen/wohnheimtutoren/">Wohnheimtutoren</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9467"><a href="https://www.studentenwerk-magdeburg.de/wohnen/wohnheimantrag/">Wohnheimantrag</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5073"><a href="https://www.studentenwerk-magdeburg.de/wohnen/schadensmeldung/">Schadensmeldung</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-392"><a href="https://www.studentenwerk-magdeburg.de/wohnen/abc/">Wohnen-ABC</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4611"><a href="https://www.studentenwerk-magdeburg.de/category/wohnen/">Newsarchiv</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-393"><a href="https://www.studentenwerk-magdeburg.de/wohnen/kooperationspartner/">Kooperationspartner</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-232"><a href="https://www.studentenwerk-magdeburg.de/wohnen/ansprechpartner/">Ansprechpartner</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-201"><a href="https://www.studentenwerk-magdeburg.de/wohnen/kontakt/">Kontaktformular</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-76"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/">Mensen &#038; Cafeterien</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-6127 current_page_item menu-item-7828"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/heute-in-unseren-mensen/">Heute in unseren Mensen</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-707"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensa-unicampus/">Mensa UniCampus Magdeburg</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4788"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensa-kellercafe/">Mensa Kellercafé Magdeburg</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-706"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensa-herrenkrug/">Mensa Herrenkrug Magdeburg</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-719"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensa-stendal/">Mensa Stendal</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensa-wernigerode/">Mensa Wernigerode</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-716"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensa-halberstadt/">Mensa DomCafete Halberstadt</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-718"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/cafeteria-geb-16/">Cafeteria Geb. 16 Magdeburg</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1768"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/abc/">Mensa-ABC</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3986"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/campuscatering/">CampusCatering</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1966"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensafeedback/">MensaFeedback</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4612"><a href="https://www.studentenwerk-magdeburg.de/category/mensen/">Newsarchiv</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2470"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/ansprechpartner/">Ansprechpartner</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1767"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/kontakt/">Kontaktformular</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-75"><a href="https://www.studentenwerk-magdeburg.de/soziales/">Soziales &#038; Beratung</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5163"><a href="https://www.studentenwerk-magdeburg.de/soziales/beratung-im-uberblick/">Beratung im Überblick</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-782"><a href="https://www.studentenwerk-magdeburg.de/soziales/sozialberatung/">Sozialberatung</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-780"><a href="https://www.studentenwerk-magdeburg.de/soziales/rechtsberatung/">Rechtsberatung</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-781"><a href="https://www.studentenwerk-magdeburg.de/soziales/psb/">PsychoSoziale StudierendenBeratung</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-778"><a href="https://www.studentenwerk-magdeburg.de/soziales/kursangebote/">Kursangebote</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7757"><a href="https://www.studentenwerk-magdeburg.de/soziales/kursangebote/anmeldung/">Online-Anmeldung</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3967"><a href="https://www.studentenwerk-magdeburg.de/soziales/abc/">Beratungs-ABC</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4613"><a href="https://www.studentenwerk-magdeburg.de/category/soziales/">Newsarchiv</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1859"><a href="https://www.studentenwerk-magdeburg.de/soziales/ansprechpartner/">Ansprechpartner</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1898"><a href="https://www.studentenwerk-magdeburg.de/soziales/kontakt/">Kontaktformular</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-73"><a href="https://www.studentenwerk-magdeburg.de/kultur/">Kultur</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9325"><a href="https://www.studentenwerk-magdeburg.de/kultur/campustheater/">CampusTheater</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-794"><a href="https://www.studentenwerk-magdeburg.de/kultur/kulturforderung/">Kulturförderung</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1731"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/">KreativWorkshops</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7740"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/anmeldung/">Online-Anmeldung</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1732"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/wolle-garn/">Dekoratives aus Wolle &#038; Garn</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9254"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/filzwerkstatt/">Filzwerkstatt</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1733"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/fotografie-analog/">Fotografie analog</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1734"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/fotografie-digital/">Fotografie digital</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9268"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/gitarrenspiel/">Gitarrenspiel</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1735"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/keramik/">Keramik</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1736"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/malerei-grafik/">Malerei &#038; Grafik</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1738"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/textiles-gestalten/">Textiles Gestalten</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1739"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/theater/">Theater</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9662"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/graffiti/">Graffiti-Workshop für Anfänger</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-792"><a href="https://www.studentenwerk-magdeburg.de/kultur/studierendentage/">Magdeburger Studierendentage</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5055"><a href="https://www.studentenwerk-magdeburg.de/kultur/studierendentage/download-programmfolder/">Download Programmfolder</a></li>
+		<li class="menu-item menu-item-type-post_type_archive menu-item-object-event menu-item-9854"><a href="https://www.studentenwerk-magdeburg.de/kultur/studierendentage/events/">Veranstaltungen</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-791"><a href="https://www.studentenwerk-magdeburg.de/kultur/mensagalerie/">MensaGalerie</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4616"><a href="https://www.studentenwerk-magdeburg.de/category/kultur/">Newsarchiv</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2352"><a href="https://www.studentenwerk-magdeburg.de/kultur/ansprechpartner/">Ansprechpartner</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1757"><a href="https://www.studentenwerk-magdeburg.de/kultur/kontakt/">Kontaktformular</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-74"><a href="https://www.studentenwerk-magdeburg.de/internationales/">Internationales</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7957"><a href="https://www.studentenwerk-magdeburg.de/internationales/materialien-fuer-auslaendische-studierende/">Materialien für ausländische Studierende</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-488"><a href="https://www.studentenwerk-magdeburg.de/internationales/interkultitreff/">InterKultiTreff</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1230"><a href="https://www.studentenwerk-magdeburg.de/internationales/isic/">International Student Identity Card</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2396"><a href="https://www.studentenwerk-magdeburg.de/internationales/austauschstudierende-in-wernigerode/">Austauschstudierende in Wernigerode</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4615"><a href="https://www.studentenwerk-magdeburg.de/category/internationales/">Newsarchiv</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2001"><a href="https://www.studentenwerk-magdeburg.de/internationales/kontakt/">Kontaktformular</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1208"><a href="https://www.studentenwerk-magdeburg.de/campuskinderzimmer/">CampusKinderzimmer &#038; KiTa CampusKids</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1209"><a href="https://www.studentenwerk-magdeburg.de/campuskinderzimmer/flexible-betreuung/">CampusKinderzimmer – Flexible Betreuung</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2902"><a href="https://www.studentenwerk-magdeburg.de/campuskinderzimmer/flexible-betreuung/anmeldung/">Anmeldung</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2901"><a href="https://www.studentenwerk-magdeburg.de/campuskinderzimmer/flexible-betreuung/abmeldung/">Abmeldung</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2900"><a href="https://www.studentenwerk-magdeburg.de/campuskinderzimmer/flexible-betreuung/nutzungsbedingungen/">Nutzungsbedingungen</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1228"><a href="https://www.studentenwerk-magdeburg.de/campuskinderzimmer/kita/">Kita CampusKids</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3562"><a href="https://www.studentenwerk-magdeburg.de/campuskinderzimmer/kita/bautagebuch/">Bautagebuch</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3252"><a href="https://www.studentenwerk-magdeburg.de/campuskinderzimmer/kita/voranmeldung/">Voranmeldung</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1227"><a href="https://www.studentenwerk-magdeburg.de/campuskinderzimmer/kinderteller/">Kinderteller</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4614"><a href="https://www.studentenwerk-magdeburg.de/category/campuskinderzimmer/">Newsarchiv</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2364"><a href="https://www.studentenwerk-magdeburg.de/campuskinderzimmer/ansprechpartner/">Ansprechpartner</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1999"><a href="https://www.studentenwerk-magdeburg.de/campuskinderzimmer/kontakt/">Kontaktformular</a></li>
+</ul>
+</li>
+</ul>				</div>
+			</div>
+		</div>
+	</div>
+	<div id="main"><div id="left-sidebar">
+<div class="menu-sidebar">
+<ul><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-79"><a href="https://www.studentenwerk-magdeburg.de/">Studentenwerk</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-197"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/ueber-uns/">Über uns</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2497"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/ueber-uns/verwaltungsrat/">Verwaltungsrat</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6392"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/ueber-uns/personalrat/">Personalrat</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/infopoint-mensa-unicampus/">Infopoint Mensa UniCampus</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/infopoint-mensa-herrenkrug/">Infopoint Mensa Herrenkrug</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-731"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/beratungsstelle-wernigerode/">Beratungsstelle Wernigerode</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-726"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/lageplan/">Lageplan</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1202"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/stellenangebote/">Stellenangebote</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1203"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/dokumente/">Dokumente</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4610"><a href="https://www.studentenwerk-magdeburg.de/category/allgemein/">Newsarchiv</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-413"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/ansprechpartner/">Ansprechpartner</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-194"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/impressum/">Impressum</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2000"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/kontakt/">Kontakt</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-77"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/">Finanzierung</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-405"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/bafog/">BAföG</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8968"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/bafog/mehrbafoeg/">Mehr BAföG 2016</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1459"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/bafog/bafog-antrag/">BAföG-Antrag</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9115"><a target="_blank" href="https://www.bafoeg-sachsen-anhalt.de/BAfoeGOnline/ABAfoeG/">BAföG Online</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-545"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/bafog/abc/">BAföG-ABC</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7622"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/sprechstunde/">BAföG-Sprechstunde</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9729"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/widerspruchstelle/">Widerspruchstelle</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-487"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/stipendien/">Stipendien</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-484"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/kfw-studienkredit/">KfW–Studienkredit</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-485"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/bildungskredit/">Bildungskredit</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-486"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/studentenwerkskredite/">Studentenwerkskredite</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-483"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/bankdarlehen/">Bankdarlehen</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-482"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/dokumente/">Dokumente</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4587"><a href="https://www.studentenwerk-magdeburg.de/category/finanzierung/">Newsarchiv</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-481"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/ansprechpartner/">Ansprechpartner &#038; Sprechzeiten</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1480"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/kontakt/">Kontaktformular</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1033"><a href="https://www.studentenwerk-magdeburg.de/wohnen/">Wohnen</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-235"><a href="https://www.studentenwerk-magdeburg.de/wohnen/magdeburg/">in Magdeburg</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234"><a href="https://www.studentenwerk-magdeburg.de/wohnen/wernigerode/">in Wernigerode</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8575"><a href="https://www.studentenwerk-magdeburg.de/wohnen/wohnheimtutoren/">Wohnheimtutoren</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9467"><a href="https://www.studentenwerk-magdeburg.de/wohnen/wohnheimantrag/">Wohnheimantrag</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5073"><a href="https://www.studentenwerk-magdeburg.de/wohnen/schadensmeldung/">Schadensmeldung</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-392"><a href="https://www.studentenwerk-magdeburg.de/wohnen/abc/">Wohnen-ABC</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4611"><a href="https://www.studentenwerk-magdeburg.de/category/wohnen/">Newsarchiv</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-393"><a href="https://www.studentenwerk-magdeburg.de/wohnen/kooperationspartner/">Kooperationspartner</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-232"><a href="https://www.studentenwerk-magdeburg.de/wohnen/ansprechpartner/">Ansprechpartner</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-201"><a href="https://www.studentenwerk-magdeburg.de/wohnen/kontakt/">Kontaktformular</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-76"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/">Mensen &#038; Cafeterien</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-6127 current_page_item menu-item-7828"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/heute-in-unseren-mensen/">Heute in unseren Mensen</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-707"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensa-unicampus/">Mensa UniCampus Magdeburg</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4788"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensa-kellercafe/">Mensa Kellercafé Magdeburg</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-706"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensa-herrenkrug/">Mensa Herrenkrug Magdeburg</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-719"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensa-stendal/">Mensa Stendal</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensa-wernigerode/">Mensa Wernigerode</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-716"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensa-halberstadt/">Mensa DomCafete Halberstadt</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-718"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/cafeteria-geb-16/">Cafeteria Geb. 16 Magdeburg</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1768"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/abc/">Mensa-ABC</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3986"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/campuscatering/">CampusCatering</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1966"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensafeedback/">MensaFeedback</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4612"><a href="https://www.studentenwerk-magdeburg.de/category/mensen/">Newsarchiv</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2470"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/ansprechpartner/">Ansprechpartner</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1767"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/kontakt/">Kontaktformular</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-75"><a href="https://www.studentenwerk-magdeburg.de/soziales/">Soziales &#038; Beratung</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5163"><a href="https://www.studentenwerk-magdeburg.de/soziales/beratung-im-uberblick/">Beratung im Überblick</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-782"><a href="https://www.studentenwerk-magdeburg.de/soziales/sozialberatung/">Sozialberatung</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-780"><a href="https://www.studentenwerk-magdeburg.de/soziales/rechtsberatung/">Rechtsberatung</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-781"><a href="https://www.studentenwerk-magdeburg.de/soziales/psb/">PsychoSoziale StudierendenBeratung</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-778"><a href="https://www.studentenwerk-magdeburg.de/soziales/kursangebote/">Kursangebote</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7757"><a href="https://www.studentenwerk-magdeburg.de/soziales/kursangebote/anmeldung/">Online-Anmeldung</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3967"><a href="https://www.studentenwerk-magdeburg.de/soziales/abc/">Beratungs-ABC</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4613"><a href="https://www.studentenwerk-magdeburg.de/category/soziales/">Newsarchiv</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1859"><a href="https://www.studentenwerk-magdeburg.de/soziales/ansprechpartner/">Ansprechpartner</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1898"><a href="https://www.studentenwerk-magdeburg.de/soziales/kontakt/">Kontaktformular</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-73"><a href="https://www.studentenwerk-magdeburg.de/kultur/">Kultur</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9325"><a href="https://www.studentenwerk-magdeburg.de/kultur/campustheater/">CampusTheater</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-794"><a href="https://www.studentenwerk-magdeburg.de/kultur/kulturforderung/">Kulturförderung</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1731"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/">KreativWorkshops</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7740"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/anmeldung/">Online-Anmeldung</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1732"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/wolle-garn/">Dekoratives aus Wolle &#038; Garn</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9254"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/filzwerkstatt/">Filzwerkstatt</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1733"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/fotografie-analog/">Fotografie analog</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1734"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/fotografie-digital/">Fotografie digital</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9268"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/gitarrenspiel/">Gitarrenspiel</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1735"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/keramik/">Keramik</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1736"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/malerei-grafik/">Malerei &#038; Grafik</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1738"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/textiles-gestalten/">Textiles Gestalten</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1739"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/theater/">Theater</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9662"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/graffiti/">Graffiti-Workshop für Anfänger</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-792"><a href="https://www.studentenwerk-magdeburg.de/kultur/studierendentage/">Magdeburger Studierendentage</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5055"><a href="https://www.studentenwerk-magdeburg.de/kultur/studierendentage/download-programmfolder/">Download Programmfolder</a></li>
+		<li class="menu-item menu-item-type-post_type_archive menu-item-object-event menu-item-9854"><a href="https://www.studentenwerk-magdeburg.de/kultur/studierendentage/events/">Veranstaltungen</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-791"><a href="https://www.studentenwerk-magdeburg.de/kultur/mensagalerie/">MensaGalerie</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4616"><a href="https://www.studentenwerk-magdeburg.de/category/kultur/">Newsarchiv</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2352"><a href="https://www.studentenwerk-magdeburg.de/kultur/ansprechpartner/">Ansprechpartner</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1757"><a href="https://www.studentenwerk-magdeburg.de/kultur/kontakt/">Kontaktformular</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-74"><a href="https://www.studentenwerk-magdeburg.de/internationales/">Internationales</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7957"><a href="https://www.studentenwerk-magdeburg.de/internationales/materialien-fuer-auslaendische-studierende/">Materialien für ausländische Studierende</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-488"><a href="https://www.studentenwerk-magdeburg.de/internationales/interkultitreff/">InterKultiTreff</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1230"><a href="https://www.studentenwerk-magdeburg.de/internationales/isic/">International Student Identity Card</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2396"><a href="https://www.studentenwerk-magdeburg.de/internationales/austauschstudierende-in-wernigerode/">Austauschstudierende in Wernigerode</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4615"><a href="https://www.studentenwerk-magdeburg.de/category/internationales/">Newsarchiv</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2001"><a href="https://www.studentenwerk-magdeburg.de/internationales/kontakt/">Kontaktformular</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1208"><a href="https://www.studentenwerk-magdeburg.de/campuskinderzimmer/">CampusKinderzimmer &#038; KiTa CampusKids</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1209"><a href="https://www.studentenwerk-magdeburg.de/campuskinderzimmer/flexible-betreuung/">CampusKinderzimmer – Flexible Betreuung</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2902"><a href="https://www.studentenwerk-magdeburg.de/campuskinderzimmer/flexible-betreuung/anmeldung/">Anmeldung</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2901"><a href="https://www.studentenwerk-magdeburg.de/campuskinderzimmer/flexible-betreuung/abmeldung/">Abmeldung</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2900"><a href="https://www.studentenwerk-magdeburg.de/campuskinderzimmer/flexible-betreuung/nutzungsbedingungen/">Nutzungsbedingungen</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1228"><a href="https://www.studentenwerk-magdeburg.de/campuskinderzimmer/kita/">Kita CampusKids</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3562"><a href="https://www.studentenwerk-magdeburg.de/campuskinderzimmer/kita/bautagebuch/">Bautagebuch</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3252"><a href="https://www.studentenwerk-magdeburg.de/campuskinderzimmer/kita/voranmeldung/">Voranmeldung</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1227"><a href="https://www.studentenwerk-magdeburg.de/campuskinderzimmer/kinderteller/">Kinderteller</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4614"><a href="https://www.studentenwerk-magdeburg.de/category/campuskinderzimmer/">Newsarchiv</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2364"><a href="https://www.studentenwerk-magdeburg.de/campuskinderzimmer/ansprechpartner/">Ansprechpartner</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1999"><a href="https://www.studentenwerk-magdeburg.de/campuskinderzimmer/kontakt/">Kontaktformular</a></li>
+</ul>
+</li>
+</ul></div>
+<div id="primary" class="widget-area" role="complementary">
+<div id="barrierefrei">
+<a href="https://www.studentenwerk-magdeburg.de/studentenwerk/impressum/webstandards/">Hinweise zu Barrierefreiheit & Webstandards</a></div>
+<div id="socialm">
+<p>Externe Links:</p><p><a title="Facebook" href="https://www.facebook.com/stuwemd"><img style="vertical-align: middle;" src="https://www.studentenwerk-magdeburg.de/wp-content/themes/swmd2012/images/facebook-24x24.png" alt="Facebook" height="24" width="24" /> Facebook</a></p>
+<p><a title="Google+" href="https://plus.google.com/117127179212844515435/"><img style="vertical-align: middle;" src="https://www.studentenwerk-magdeburg.de/wp-content/themes/swmd2012/images/google+-24x24.png" alt="Google+" height="24" width="24" /> Google+</a></p>
+<p>Wenn Sie diese externen Links anklicken, gelangen Sie auf Seiten, die personenbezogene Daten ins Ausland übertragen und auch dort speichern könnten.</p>
+</div>
+
+<div style="margin-top:20px;clear:both">
+<br/>
+<ul></ul></div>
+</div></div><div id="right-sidebar">
+<div id="campus">
+Mein Campus<br />
+<map name="MeinCampus" id="MeinCampus">
+ <area shape="poly" coords="38,224,5,224,5,155,24,155,44,186,70,186,70,224" href="/campus-wernigerode/" alt="" />
+ <area shape="poly" coords="75,172,96,186,153,186,153,226,92,226,92,199,31,153,45,152" href="/campus-halberstadt/" alt="" />
+ <area shape="poly" coords="66,146,63,113,0,113,2,146" href="/campus-zschokkestrasse/" alt="" />
+ <area shape="poly" coords="136,135,160,135,160,178,95,178,95,136,73,123,85,123,110,134" href="/campus-medizinische-fakultat/" alt="" />
+ <area shape="poly" coords="3,65,4,65,63,65,69,112,50,102,3,102" href="/unicampus-magdeburg/" alt="" />
+ <area shape="poly" coords="6,7,33,7,47,7,80,77,49,53,6,53" href="/campus-stendal/" alt="" />
+ <area shape="poly" coords="109,33,109,10,166,10,166,69,113,69,89,104,86,97,109,56" href="/campus-friedensau/" alt="" />
+ <area shape="poly" coords="115,104,115,77,168,77,168,123,114,123,82,116" href="/campus-herrenkrug/" alt="" />
+</map>
+<img class="meincampus" src="https://www.studentenwerk-magdeburg.de/wp-content/themes/swmd2012/images/swmd_campus_de.jpg" alt="Mein Campus" height="250" width="170" usemap="#MeinCampus" />
+</div>
+		<div id="secondary" class="widget-area" role="complementary">
+				<div id="ubm-banners-2" class="widget-container ubm_widget"><h3 class="widget-title">Mehr BAföG</h3>        <div class="ubm_banner">
+                        <a href="https://www.studentenwerk-magdeburg.de/finanzierung/bafog/mehrbafoeg/" target="_self" rel="dofollow">
+                    	<img src="https://www.studentenwerk-magdeburg.de/wp-content/uploads/useful_banner_manager_banners/13-mehrbafog_banner1.jpg" width="190" alt="" />
+                            </a>
+                    </div>
+        </div><div id="ubm-banners-3" class="widget-container ubm_widget"><h3 class="widget-title">Magdeburger Kulturnachr 2017</h3></div>		</div>
+</div>		<div id="container">
+			<div id="content" role="main">
+<div id="breadcrumb"><a href="https://www.studentenwerk-magdeburg.de/">Home</a> &raquo; <a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/">Mensen &amp; Cafeterien</a> &raquo; <span class="current">Heute in unseren Mensen</span></div>							<div id="post-6127" class="post-6127 page type-page status-publish hentry">
+						
+										<div class="entry-content">
+						<h1><img class="alignright size-large wp-image-7830" src="https://www.studentenwerk-magdeburg.de/wp-content/uploads/2015/09/heute_mensen-300x300.jpg" alt="heute_mensen" srcset="https://www.studentenwerk-magdeburg.de/wp-content/uploads/2015/09/heute_mensen.jpg 300w, https://www.studentenwerk-magdeburg.de/wp-content/uploads/2015/09/heute_mensen-100x100.jpg 100w, https://www.studentenwerk-magdeburg.de/wp-content/uploads/2015/09/heute_mensen-150x150.jpg 150w, https://www.studentenwerk-magdeburg.de/wp-content/uploads/2015/09/heute_mensen-190x190.jpg 190w" sizes="(max-width: 300px) 100vw, 300px" />Heutiges Angebot in unseren Mensen</h1>
+<p>Der heutige Speiseplan für alle Mensen im Überblick!</p>
+<h2><a title="Speiseplan" href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensa-unicampus/speiseplan-unten/">Mensa UniCampus Magdeburg, unterer Saal</a></h2>
+<div class='mensa'><table><thead><tr><td colspan='3'>Donnerstag / Thursday, 18.01.2018</td></tr></thead><tbody><tr ><td style='width:70%;'><strong>Gebratenes Tilapia-Buntbarschfilet mit Schwarzwurzel-Möhrenragout und grünen Bandnudeln <br /><span class='grau'>fried seahake fillet with black salsify-carrot ragout and green ribbon noodles </span></strong><br />2,30 | 3,80 | 4,85</td><td style='text-align:right;width:18%;'><div><img src='/wp-content/themes/swmd2012/mensasym/mensasym_alkohol.png' alt='Symbol enth�lt Alkohol' title='Symbol enth�lt Alkohol' height='30' width='30' style='float:right;'/><img src='/wp-content/themes/swmd2012/mensasym/mensasym_fisch.png' alt='Symbol Fisch' title='Symbol Fisch' height='30' width='30' style='float:right;'/><img src='/wp-content/themes/swmd2012/mensasym/mensasym_vital.png' alt='Symbol MensaVital' title='Symbol MensaVital' height='30' width='30' style='float:right;'/></div><div style='clear:both;'>(5) (a1) (d) (g) (l) </div></td><tr ><td style='width:70%;'><strong><span class='gruen'>Aktion: 2 vegetarische Schnitzel Mexikanische Art mit buntem Gemüse-Chili und Kartoffelspalten</span><br /><span class='grau'><span class='gruen'></span>special offer: 2 vegetarian escalopes mexican style with colorfull vegetable-chili and potato wedges</span></strong><br />2,60 | 4,00 | 5,00</td><td style='text-align:right;width:18%;'><div><img src='/wp-content/themes/swmd2012/mensasym/mensasym_knoblauch.png' alt='Symbol Knoblauch' title='Symbol Knoblauch' height='30' width='30' style='float:right;'/><img src='/wp-content/themes/swmd2012/mensasym/mensasym_vegetarisch.png' alt='Symbol vegetarisch' title='Symbol vegetarisch' height='30' width='30' style='float:right;'/></div><div style='clear:both;'>(2) (a1) (a4) (c) (g) </div></td><tr ><td style='width:70%;'><strong>Rinderhacksteak Griechische Art mit Frischkäsefüllung dazu Rosmarinsoße<br /><span class='grau'>minced meat steak Greek-style with cream cheese filling additional rosemary sauce</span></strong><br />1,45 | 2,50 | 3,20</td><td style='text-align:right;width:18%;'><div><img src='/wp-content/themes/swmd2012/mensasym/mensasym_knoblauch.png' alt='Symbol Knoblauch' title='Symbol Knoblauch' height='30' width='30' style='float:right;'/><img src='/wp-content/themes/swmd2012/mensasym/mensasym_rind.png' alt='Symbol Rind' title='Symbol Rind' height='30' width='30' style='float:right;'/></div><div style='clear:both;'>(a1) (c) (f) (g) (i) (j) </div></td><tr ><td style='width:70%;'><strong>Schweinegulasch Szegediner Art mit Sauerkraut und Salzkartoffeln<br /><span class='grau'>pork goulash Szeged stylewith sour cabbage and boiled potatoes</span></strong><br />1,50 | 3,00 | 4,00</td><td style='text-align:right;width:18%;'><div><img src='/wp-content/themes/swmd2012/mensasym/mensasym_schwein.png' alt='Symbol Schwein' title='Symbol Schwein' height='30' width='30' style='float:right;'/></div><div style='clear:both;'>(a1) </div></td><tr ><td style='width:70%;'><strong><span class='gruen'>Bärlauchcremesuppe </span><br /><span class='grau'><span class='gruen'></span>wild garlic cream soup </span></strong><br />0,40 | 0,60 | 0,75</td><td style='text-align:right;width:18%;'><div><img src='/wp-content/themes/swmd2012/mensasym/mensasym_suppe.png' alt='Symbol Suppe' title='Symbol Suppe' height='30' width='30' style='float:right;'/><img src='/wp-content/themes/swmd2012/mensasym/mensasym_vegan.png' alt='Symbol vegan' title='Symbol vegan' height='30' width='30' style='float:right;'/></div><div style='clear:both;'></div></td><tr><td colspan='3' style='width:100%;'>Beilagen: Salzkartoffeln, Kartoffelspalten, Langkornreis, Balkangemüse <br /><span class='grau'>Sides: boiled potatoes, potato wedges, long grain rice, Balkan vegetables </span><br /></td></tr></table></div>
+<h4><a title="Speiseplan" href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensa-unicampus/speiseplan-oben/">Mensa UniCampus Magdeburg, oberer Saal</a></h4>
+<div class='mensa'><table><thead><tr><td colspan='3'>Donnerstag / Thursday, 18.01.2018</td></tr></thead><tbody><tr ><td style='width:70%;'><strong>Seelachsfilet in Taccopanade mit Käse-Chilisoße<br /><span class='grau'>saithe fillet with tacco breadcrumb coating with cheese-chili sauce</span></strong><br />1,45 | 2,50 | 3,20</td><td style='text-align:right;width:18%;'><div><img src='/wp-content/themes/swmd2012/mensasym/mensasym_fisch.png' alt='Symbol Fisch' title='Symbol Fisch' height='30' width='30' style='float:right;'/></div><div style='clear:both;'>(1) (2) (a1) (d) (g) (i) (j) </div></td><tr ><td style='width:70%;'><strong><span class='gruen'>Gemüse-Knusperschnitte Hong Kong mit süß-saurer Soße</span><br /><span class='grau'><span class='gruen'></span>crunchy vegetables slice hong omg style with sweet sour sauce</span></strong><br />1,45 | 2,50 | 3,20</td><td style='text-align:right;width:18%;'><div><img src='/wp-content/themes/swmd2012/mensasym/mensasym_knoblauch.png' alt='Symbol Knoblauch' title='Symbol Knoblauch' height='30' width='30' style='float:right;'/><img src='/wp-content/themes/swmd2012/mensasym/mensasym_vegan.png' alt='Symbol vegan' title='Symbol vegan' height='30' width='30' style='float:right;'/></div><div style='clear:both;'>(2) (9) (a1) (f) (i) (j) </div></td><tr ><td style='width:70%;'><strong>Bio: Rinderbraten mit grünen Bohnen und Kartoffeln <br /><span class='grau'>bio: roast beef with green beans and potatoes </span></strong><br />3,50 | 4,50 | 6,00</td><td style='text-align:right;width:18%;'><div><img src='/wp-content/themes/swmd2012/mensasym/mensasym_bio.png' alt='Symbol Bio' title='Symbol Bio' height='30' width='30' style='float:right;'/><img src='/wp-content/themes/swmd2012/mensasym/mensasym_rind.png' alt='Symbol Rind' title='Symbol Rind' height='30' width='30' style='float:right;'/></div><div style='clear:both;'>(3) (a1) (i) </div></td><tr ><td style='width:70%;'><strong>Schweinesteak <br /><span class='grau'>pork steak </span></strong><br />1,35 | 2,40 | 3,10</td><td style='text-align:right;width:18%;'><div><img src='/wp-content/themes/swmd2012/mensasym/mensasym_schwein.png' alt='Symbol Schwein' title='Symbol Schwein' height='30' width='30' style='float:right;'/></div><div style='clear:both;'>(a1) (f) (g) (i) </div></td><tr ><td style='width:70%;'><strong>Pasta vom Buffet nach Gewicht dazu Hähnchengeschnetzeltes Arabische Art<br /><span class='grau'>pasta depending on weight additional chicken slices arabisch</span></strong><br />0,57 | 0,82 | 1,02</td><td style='text-align:right;width:18%;'><div><img src='/wp-content/themes/swmd2012/mensasym/mensasym_gefluegel.png' alt='Symbol Gefl&uuml;gel' title='Symbol Gefl&uuml;gel' height='30' width='30' style='float:right;'/></div><div style='clear:both;'>(a1) (g) </div></td><tr ><td style='width:70%;'><strong><span class='gruen'>Pasta vom Buffet nach Gewicht dazu Mediterranes Gemüseragout</span><br /><span class='grau'><span class='gruen'></span>pasta depending on weight additional mediterranean vegetable ragout</span></strong><br />0,57 | 0,82 | 1,02</td><td style='text-align:right;width:18%;'><div><img src='/wp-content/themes/swmd2012/mensasym/mensasym_vegetarisch.png' alt='Symbol vegetarisch' title='Symbol vegetarisch' height='30' width='30' style='float:right;'/></div><div style='clear:both;'>(a1) (g) </div></td><tr ><td style='width:70%;'><strong><span class='gruen'>Bärlauchcremesuppe </span><br /><span class='grau'><span class='gruen'></span>wild garlic cream soup </span></strong><br />0,40 | 0,60 | 0,75</td><td style='text-align:right;width:18%;'><div><img src='/wp-content/themes/swmd2012/mensasym/mensasym_suppe.png' alt='Symbol Suppe' title='Symbol Suppe' height='30' width='30' style='float:right;'/><img src='/wp-content/themes/swmd2012/mensasym/mensasym_vegan.png' alt='Symbol vegan' title='Symbol vegan' height='30' width='30' style='float:right;'/></div><div style='clear:both;'></div></td><tr><td colspan='3' style='width:100%;'>Beilagen: Rahm-Blattspinat, Chinagemüse, Salzkartoffeln, Pommes Frites, Langkornreis <br /><span class='grau'>Sides: cream spinach leaves, Chinese vegetables, boiled potatoes, French fries, long grain rice </span><br /></td></tr></table></div>
+<h4><a title="Speiseplan" href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensa-kellercafe/speiseplan/">Mensa Kellercafe Zschokkestraße Magdeburg</a></h4>
+<div class='mensa'><table><thead><tr><td colspan='3'>Donnerstag / Thursday, 18.01.2018</td></tr></thead><tbody><tr ><td style='width:70%;'><strong>Gebratenes Tilapia-Buntbarschfilet mit Schwarzwurzel-Möhrenragout und grünen Bandnudeln <br /><span class='grau'>fried seahake fillet with black salsify-carrot ragout and green ribbon noodles </span></strong><br />2,30 | 3,80 | 4,85</td><td style='text-align:right;width:18%;'><div><img src='/wp-content/themes/swmd2012/mensasym/mensasym_alkohol.png' alt='Symbol enth�lt Alkohol' title='Symbol enth�lt Alkohol' height='30' width='30' style='float:right;'/><img src='/wp-content/themes/swmd2012/mensasym/mensasym_fisch.png' alt='Symbol Fisch' title='Symbol Fisch' height='30' width='30' style='float:right;'/><img src='/wp-content/themes/swmd2012/mensasym/mensasym_vital.png' alt='Symbol MensaVital' title='Symbol MensaVital' height='30' width='30' style='float:right;'/></div><div style='clear:both;'>(5) (a1) (d) (g) (l) </div></td><tr ><td style='width:70%;'><strong><span class='gruen'>Kaiserschmarrn mit Vanillesoße und gerösteten Mandeln</span><br /><span class='grau'><span class='gruen'></span>sweet cut-up pancake with raisins with vanille sauce and roasted almonds</span></strong><br />2,10 | 3,70 | 4,75</td><td style='text-align:right;width:18%;'><div><img src='/wp-content/themes/swmd2012/mensasym/mensasym_vegetarisch.png' alt='Symbol vegetarisch' title='Symbol vegetarisch' height='30' width='30' style='float:right;'/></div><div style='clear:both;'>(1) (a1) (c) (g) (h1) </div></td><tr ><td style='width:70%;'><strong>Schweinegulasch Szegediner Art mit Sauerkraut und Salzkartoffeln<br /><span class='grau'>pork goulash Szeged stylewith sour cabbage and boiled potatoes</span></strong><br />1,50 | 3,00 | 4,00</td><td style='text-align:right;width:18%;'><div><img src='/wp-content/themes/swmd2012/mensasym/mensasym_schwein.png' alt='Symbol Schwein' title='Symbol Schwein' height='30' width='30' style='float:right;'/></div><div style='clear:both;'>(a1) </div></td></table></div>
+<h4><a title="Speiseplan" href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensa-herrenkrug/speiseplan/">Mensa Herrenkrug Magdeburg</a></h4>
+<div class='mensa'><table><thead><tr><td colspan='3'>Donnerstag / Thursday, 18.01.2018</td></tr></thead><tbody><tr ><td style='width:70%;'><strong><span class='gruen'>Aktion: 2 vegetarische Schnitzel Mexikanische Art mit buntem Gemüse-Chili und Kartoffelspalten</span><br /><span class='grau'><span class='gruen'></span>special offer: 2 vegetarian escalopes mexican style with colorfull vegetable-chili and potato wedges</span></strong><br />2,60 | 4,00 | 5,00</td><td style='text-align:right;width:18%;'><div><img src='/wp-content/themes/swmd2012/mensasym/mensasym_knoblauch.png' alt='Symbol Knoblauch' title='Symbol Knoblauch' height='30' width='30' style='float:right;'/><img src='/wp-content/themes/swmd2012/mensasym/mensasym_vegetarisch.png' alt='Symbol vegetarisch' title='Symbol vegetarisch' height='30' width='30' style='float:right;'/></div><div style='clear:both;'>(2) (a1) (a4) (c) (g) </div></td><tr ><td style='width:70%;'><strong>Rinderhacksteak Griechische Art mit Frischkäsefüllung dazu Rosmarinsoße<br /><span class='grau'>minced meat steak Greek-style with cream cheese filling additional rosemary sauce</span></strong><br />1,45 | 2,50 | 3,20</td><td style='text-align:right;width:18%;'><div><img src='/wp-content/themes/swmd2012/mensasym/mensasym_knoblauch.png' alt='Symbol Knoblauch' title='Symbol Knoblauch' height='30' width='30' style='float:right;'/><img src='/wp-content/themes/swmd2012/mensasym/mensasym_rind.png' alt='Symbol Rind' title='Symbol Rind' height='30' width='30' style='float:right;'/></div><div style='clear:both;'>(a1) (c) (f) (g) (i) (j) </div></td><tr ><td style='width:70%;'><strong>Seelachsfilet in Taccopanade mit Käse-Chilisoße<br /><span class='grau'>saithe fillet with tacco breadcrumb coating with cheese-chili sauce</span></strong><br />1,45 | 2,50 | 3,20</td><td style='text-align:right;width:18%;'><div><img src='/wp-content/themes/swmd2012/mensasym/mensasym_fisch.png' alt='Symbol Fisch' title='Symbol Fisch' height='30' width='30' style='float:right;'/></div><div style='clear:both;'>(1) (2) (6) (a1) (d) (g) (i) (j) </div></td><tr ><td style='width:70%;'><strong>Schweinegulasch Szegediner Art mit Sauerkraut und Salzkartoffeln<br /><span class='grau'>pork goulash Szeged stylewith sour cabbage and boiled potatoes</span></strong><br />1,50 | 3,00 | 4,00</td><td style='text-align:right;width:18%;'><div><img src='/wp-content/themes/swmd2012/mensasym/mensasym_schwein.png' alt='Symbol Schwein' title='Symbol Schwein' height='30' width='30' style='float:right;'/></div><div style='clear:both;'>(a1) </div></td><tr ><td style='width:70%;'><strong>Pasta vom Buffet nach Gewicht mit Gemüse- und Schweinerückenstreifen<br /><span class='grau'>pasta depending on weight vegetables and pork loin slices</span></strong><br />0,57 | 0,82 | 1,02</td><td style='text-align:right;width:18%;'><div><img src='/wp-content/themes/swmd2012/mensasym/mensasym_schwein.png' alt='Symbol Schwein' title='Symbol Schwein' height='30' width='30' style='float:right;'/></div><div style='clear:both;'>(a1) (f) (g) (i) </div></td><tr ><td style='width:70%;'><strong><span class='gruen'>Pasta vom Buffet nach Gewicht mit Chili sin carne</span><br /><span class='grau'><span class='gruen'></span>pasta depending on weight with chili sin carne</span></strong><br />0,57 | 0,82 | 1,02</td><td style='text-align:right;width:18%;'><div><img src='/wp-content/themes/swmd2012/mensasym/mensasym_knoblauch.png' alt='Symbol Knoblauch' title='Symbol Knoblauch' height='30' width='30' style='float:right;'/><img src='/wp-content/themes/swmd2012/mensasym/mensasym_vegan.png' alt='Symbol vegan' title='Symbol vegan' height='30' width='30' style='float:right;'/></div><div style='clear:both;'>(2) (a1) (f) </div></td><tr><td colspan='3' style='width:100%;'>Beilagen: Salzkartoffeln, Kartoffelspalten, Langkornreis, Balkangemüse, Wachsbohnen <br /><span class='grau'>Sides: boiled potatoes, potato wedges, long grain rice, Balkan vegetables, wax beans </span><br /></td></tr></table></div>
+<h4><a title="Speiseplan" href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensa-stendal/speiseplan/">Mensa Stendal</a></h4>
+<div class='mensa'><table><thead><tr><td colspan='3'>Donnerstag / Thursday, 18.01.2018</td></tr></thead><tbody><tr ><td style='width:70%;'><strong><span class='gruen'>Aktion: 2 vegetarische Schnitzel Mexikanische Art mit buntem Gemüse-Chili und Kartoffelspalten</span><br /><span class='grau'><span class='gruen'></span>special offer: 2 vegetarian escalopes mexican style with colorfull vegetable-chili and potato wedges</span></strong><br />2,60 | 4,00 | 5,00</td><td style='text-align:right;width:18%;'><div><img src='/wp-content/themes/swmd2012/mensasym/mensasym_knoblauch.png' alt='Symbol Knoblauch' title='Symbol Knoblauch' height='30' width='30' style='float:right;'/><img src='/wp-content/themes/swmd2012/mensasym/mensasym_vegetarisch.png' alt='Symbol vegetarisch' title='Symbol vegetarisch' height='30' width='30' style='float:right;'/></div><div style='clear:both;'>(2) (a1) (a4) (c) (g) </div></td><tr ><td style='width:70%;'><strong>Rinderhacksteak Griechische Art mit Frischkäsefüllung dazu Rosmarinsoße<br /><span class='grau'>minced meat steak Greek-style with cream cheese filling additional rosemary sauce</span></strong><br />1,45 | 2,50 | 3,20</td><td style='text-align:right;width:18%;'><div><img src='/wp-content/themes/swmd2012/mensasym/mensasym_knoblauch.png' alt='Symbol Knoblauch' title='Symbol Knoblauch' height='30' width='30' style='float:right;'/><img src='/wp-content/themes/swmd2012/mensasym/mensasym_rind.png' alt='Symbol Rind' title='Symbol Rind' height='30' width='30' style='float:right;'/></div><div style='clear:both;'>(a1) (c) (f) (g) (i) (j) </div></td><tr ><td style='width:70%;'><strong><span class='gruen'>Kichererbsenbällchen Falafel mit orientalischem Gemüsedip</span><br /><span class='grau'><span class='gruen'></span>chickpeas balls Falafel oriental vegetable dip</span></strong><br />1,45 | 2,50 | 3,20</td><td style='text-align:right;width:18%;'><div><img src='/wp-content/themes/swmd2012/mensasym/mensasym_vegan.png' alt='Symbol vegan' title='Symbol vegan' height='30' width='30' style='float:right;'/></div><div style='clear:both;'>(5) (9) (a1) (f) (j) (l) </div></td><tr ><td style='width:70%;'><strong>Schweinegulasch Szegediner Art mit Sauerkraut und Salzkartoffeln<br /><span class='grau'>pork goulash Szeged stylewith sour cabbage and boiled potatoes</span></strong><br />1,50 | 3,00 | 4,00</td><td style='text-align:right;width:18%;'><div><img src='/wp-content/themes/swmd2012/mensasym/mensasym_schwein.png' alt='Symbol Schwein' title='Symbol Schwein' height='30' width='30' style='float:right;'/></div><div style='clear:both;'>(a1) </div></td><tr ><td style='width:70%;'><strong>Tagessuppe <br /><span class='grau'>colorfull pasta-vegetable casserole </span></strong><br />0,40 | 0,60 | 0,75</td><td style='text-align:right;width:18%;'><div><img src='/wp-content/themes/swmd2012/mensasym/mensasym_suppe.png' alt='Symbol Suppe' title='Symbol Suppe' height='30' width='30' style='float:right;'/></div><div style='clear:both;'></div></td><tr><td colspan='3' style='width:100%;'>Beilagen: Salzkartoffeln, Kartoffelspalten, Langkornreis, Balkangemüse <br /><span class='grau'>Sides: boiled potatoes, potato wedges, long grain rice, Balkan vegetables </span><br /></td></tr></table></div>
+<h4><a title="Speiseplan" href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensa-wernigerode/speiseplan/">Mensa Wernigerode</a></h4>
+<div class='mensa'><table><thead><tr><td colspan='3'>Donnerstag / Thursday, 18.01.2018</td></tr></thead><tbody><tr ><td style='width:70%;'><strong>Gebratenes Tilapia-Buntbarschfilet mit Schwarzwurzel-Möhrenragout und grünen Bandnudeln <br /><span class='grau'>fried seahake fillet with black salsify-carrot ragout and green ribbon noodles </span></strong><br />2,30 | 3,80 | 4,85</td><td style='text-align:right;width:18%;'><div><img src='/wp-content/themes/swmd2012/mensasym/mensasym_alkohol.png' alt='Symbol enth�lt Alkohol' title='Symbol enth�lt Alkohol' height='30' width='30' style='float:right;'/><img src='/wp-content/themes/swmd2012/mensasym/mensasym_fisch.png' alt='Symbol Fisch' title='Symbol Fisch' height='30' width='30' style='float:right;'/><img src='/wp-content/themes/swmd2012/mensasym/mensasym_vital.png' alt='Symbol MensaVital' title='Symbol MensaVital' height='30' width='30' style='float:right;'/></div><div style='clear:both;'>(5) (a1) (d) (g) (l) </div></td><tr ><td style='width:70%;'><strong><span class='gruen'>Aktion: 2 vegetarische Schnitzel Mexikanische Art mit buntem Gemüse-Chili und Kartoffelspalten</span><br /><span class='grau'><span class='gruen'></span>special offer: 2 vegetarian escalopes mexican style with colorfull vegetable-chili and potato wedges</span></strong><br />2,60 | 4,00 | 5,00</td><td style='text-align:right;width:18%;'><div><img src='/wp-content/themes/swmd2012/mensasym/mensasym_knoblauch.png' alt='Symbol Knoblauch' title='Symbol Knoblauch' height='30' width='30' style='float:right;'/><img src='/wp-content/themes/swmd2012/mensasym/mensasym_vegetarisch.png' alt='Symbol vegetarisch' title='Symbol vegetarisch' height='30' width='30' style='float:right;'/></div><div style='clear:both;'>(2) (a1) (a4) (c) (g) </div></td><tr ><td style='width:70%;'><strong>Schweinegulasch Szegediner Art mit Sauerkraut und Salzkartoffeln<br /><span class='grau'>pork goulash Szeged stylewith sour cabbage and boiled potatoes</span></strong><br />1,50 | 3,00 | 4,00</td><td style='text-align:right;width:18%;'><div><img src='/wp-content/themes/swmd2012/mensasym/mensasym_schwein.png' alt='Symbol Schwein' title='Symbol Schwein' height='30' width='30' style='float:right;'/></div><div style='clear:both;'>(a1) </div></td></table></div>
+<h4><a title="Speiseplan" href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensa-halberstadt/speiseplan/">Mensa DomCafete Halberstadt</a></h4>
+<div class='mensa'><table><thead><tr><td colspan='3'>Donnerstag / Thursday, 18.01.2018</td></tr></thead><tbody><tr ><td style='width:70%;'><strong>Gebratenes Tilapia-Buntbarschfilet mit Schwarzwurzel-Möhrenragout und grünen Bandnudeln <br /><span class='grau'>fried seahake fillet with black salsify-carrot ragout and green ribbon noodles </span></strong><br />2,30 | 3,80 | 4,85</td><td style='text-align:right;width:18%;'><div><img src='/wp-content/themes/swmd2012/mensasym/mensasym_alkohol.png' alt='Symbol enth�lt Alkohol' title='Symbol enth�lt Alkohol' height='30' width='30' style='float:right;'/><img src='/wp-content/themes/swmd2012/mensasym/mensasym_fisch.png' alt='Symbol Fisch' title='Symbol Fisch' height='30' width='30' style='float:right;'/><img src='/wp-content/themes/swmd2012/mensasym/mensasym_vital.png' alt='Symbol MensaVital' title='Symbol MensaVital' height='30' width='30' style='float:right;'/></div><div style='clear:both;'>(5) (a1) (d) (g) (l) </div></td><tr ><td style='width:70%;'><strong><span class='gruen'>Aktion: 2 vegetarische Schnitzel Mexikanische Art mit buntem Gemüse-Chili und Kartoffelspalten</span><br /><span class='grau'><span class='gruen'></span>special offer: 2 vegetarian escalopes mexican style with colorfull vegetable-chili and potato wedges</span></strong><br />2,60 | 4,00 | 5,00</td><td style='text-align:right;width:18%;'><div><img src='/wp-content/themes/swmd2012/mensasym/mensasym_knoblauch.png' alt='Symbol Knoblauch' title='Symbol Knoblauch' height='30' width='30' style='float:right;'/><img src='/wp-content/themes/swmd2012/mensasym/mensasym_vegetarisch.png' alt='Symbol vegetarisch' title='Symbol vegetarisch' height='30' width='30' style='float:right;'/></div><div style='clear:both;'>(2) (a1) (a4) (c) (g) </div></td></table></div><div class='legende'>Preisstaffel: Studenten | Bedienstete | G&auml;ste <span class='grau'>/ price scale: students | staff | guests</span><br />
+Zusatzstoffe: mit Farbstoff (1), mit Konservierungsstoff (2), mit Antioxidationsmittel (3), mit Geschmacksverst&auml;rker (4), geschwefelt (5), gewachst (6), geschw&auml;rzt (7), mit Phosphat (8), mit S&uuml;&szlig;ungsmitteln (9), enth&auml;lt eine Phenylalaninquelle (10)<br />
+<span class='grau'>Additives: with food colouring (1), with food preservatives (2), with anti-oxidants (3), with flavor enhancer (4), sulfurized (5), waxed (6), blackend (7), with phosphates (8), with sweetener (9), contains phenylalanine (10)</span><br />
+Allergene: enth&auml;lt Gluten: Weizen (a1), Roggen (a2), Gerste (a3), Hafer (a4), Dinkel (a5), Kamut (a6), enth&auml;lt Krebstiere (b), enth&auml;lt Ei (c), enth&auml;lt Fisch (d), enth&auml;lt Erdn&uuml;sse (e), enth&auml;lt Soja (f), enth&auml;lt Milch/Milchzucker (g), enth&auml;lt Schalenfr&uuml;chte/N&uuml;sse: Mandeln (h1), Haseln&uuml;sse (h2), Waln&uuml;sse (h3), Cashewn&uuml;sse (h4), Pecann&uuml;sse (h5), Paran&uuml;sse (h6), enth&auml;lt Sellerie (i), enth&auml;lt Senf (j), enth&auml;lt Sesam (k), enth&auml;lt Sulfit/Schwefeldioxid (l), enth&auml;lt Lupine (m), Weichtiere (n)<br /> 
+<span class='grau'>Allergenic: contains cereals containing gluten: wheat (a1), rye (a2), barley (a3), oats (a4), spelt (a5), kamut (a6), contains crustaceans (b), containing eggs (c), contains fish (d), contains penuts (e), contains soy/soya (f), contains milk/lactose (g), contains nuts: almonds (h1), hazelnuts (h2), walnuts (h3), cashews (h4), pecan nuts (h5), brazil nuts (h6), pistachios (h7), macadamia nuts (h8), queensland nuts (h9), contains celery (i), contains mustard (j), contains sesame (k), contains sulphite/sulphur dioxide (l), contains lupin (m), contains molluscs (n)<span>
+</div>
+																	</div>
+				</div>
+			</div>
+		</div>
+<div id="claim">
+<img src="https://www.studentenwerk-magdeburg.de/wp-content/themes/swmd2012/images/swmd_footer.jpg" alt="Claim" /></div>
+	<div id="footer" role="contentinfo">
+<div id="accessb" role="navigation" style="margin-top:0px;">
+<div class="menu-footer">
+<ul><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-79"><a href="https://www.studentenwerk-magdeburg.de/">Studentenwerk</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-197"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/ueber-uns/">Über uns</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2497"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/ueber-uns/verwaltungsrat/">Verwaltungsrat</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6392"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/ueber-uns/personalrat/">Personalrat</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/infopoint-mensa-unicampus/">Infopoint Mensa UniCampus</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/infopoint-mensa-herrenkrug/">Infopoint Mensa Herrenkrug</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-731"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/beratungsstelle-wernigerode/">Beratungsstelle Wernigerode</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-726"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/lageplan/">Lageplan</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1202"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/stellenangebote/">Stellenangebote</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1203"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/dokumente/">Dokumente</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4610"><a href="https://www.studentenwerk-magdeburg.de/category/allgemein/">Newsarchiv</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-413"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/ansprechpartner/">Ansprechpartner</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-194"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/impressum/">Impressum</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2000"><a href="https://www.studentenwerk-magdeburg.de/studentenwerk/kontakt/">Kontakt</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-77"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/">Finanzierung</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-405"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/bafog/">BAföG</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8968"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/bafog/mehrbafoeg/">Mehr BAföG 2016</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1459"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/bafog/bafog-antrag/">BAföG-Antrag</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9115"><a target="_blank" href="https://www.bafoeg-sachsen-anhalt.de/BAfoeGOnline/ABAfoeG/">BAföG Online</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-545"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/bafog/abc/">BAföG-ABC</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7622"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/sprechstunde/">BAföG-Sprechstunde</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9729"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/widerspruchstelle/">Widerspruchstelle</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-487"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/stipendien/">Stipendien</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-484"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/kfw-studienkredit/">KfW–Studienkredit</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-485"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/bildungskredit/">Bildungskredit</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-486"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/studentenwerkskredite/">Studentenwerkskredite</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-483"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/bankdarlehen/">Bankdarlehen</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-482"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/dokumente/">Dokumente</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4587"><a href="https://www.studentenwerk-magdeburg.de/category/finanzierung/">Newsarchiv</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-481"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/ansprechpartner/">Ansprechpartner &#038; Sprechzeiten</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1480"><a href="https://www.studentenwerk-magdeburg.de/finanzierung/kontakt/">Kontaktformular</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1033"><a href="https://www.studentenwerk-magdeburg.de/wohnen/">Wohnen</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-235"><a href="https://www.studentenwerk-magdeburg.de/wohnen/magdeburg/">in Magdeburg</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234"><a href="https://www.studentenwerk-magdeburg.de/wohnen/wernigerode/">in Wernigerode</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8575"><a href="https://www.studentenwerk-magdeburg.de/wohnen/wohnheimtutoren/">Wohnheimtutoren</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9467"><a href="https://www.studentenwerk-magdeburg.de/wohnen/wohnheimantrag/">Wohnheimantrag</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5073"><a href="https://www.studentenwerk-magdeburg.de/wohnen/schadensmeldung/">Schadensmeldung</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-392"><a href="https://www.studentenwerk-magdeburg.de/wohnen/abc/">Wohnen-ABC</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4611"><a href="https://www.studentenwerk-magdeburg.de/category/wohnen/">Newsarchiv</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-393"><a href="https://www.studentenwerk-magdeburg.de/wohnen/kooperationspartner/">Kooperationspartner</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-232"><a href="https://www.studentenwerk-magdeburg.de/wohnen/ansprechpartner/">Ansprechpartner</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-201"><a href="https://www.studentenwerk-magdeburg.de/wohnen/kontakt/">Kontaktformular</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-76"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/">Mensen &#038; Cafeterien</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-6127 current_page_item menu-item-7828"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/heute-in-unseren-mensen/">Heute in unseren Mensen</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-707"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensa-unicampus/">Mensa UniCampus Magdeburg</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4788"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensa-kellercafe/">Mensa Kellercafé Magdeburg</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-706"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensa-herrenkrug/">Mensa Herrenkrug Magdeburg</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-719"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensa-stendal/">Mensa Stendal</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensa-wernigerode/">Mensa Wernigerode</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-716"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensa-halberstadt/">Mensa DomCafete Halberstadt</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-718"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/cafeteria-geb-16/">Cafeteria Geb. 16 Magdeburg</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1768"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/abc/">Mensa-ABC</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3986"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/campuscatering/">CampusCatering</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1966"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensafeedback/">MensaFeedback</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4612"><a href="https://www.studentenwerk-magdeburg.de/category/mensen/">Newsarchiv</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2470"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/ansprechpartner/">Ansprechpartner</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1767"><a href="https://www.studentenwerk-magdeburg.de/mensen-cafeterien/kontakt/">Kontaktformular</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-75"><a href="https://www.studentenwerk-magdeburg.de/soziales/">Soziales &#038; Beratung</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5163"><a href="https://www.studentenwerk-magdeburg.de/soziales/beratung-im-uberblick/">Beratung im Überblick</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-782"><a href="https://www.studentenwerk-magdeburg.de/soziales/sozialberatung/">Sozialberatung</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-780"><a href="https://www.studentenwerk-magdeburg.de/soziales/rechtsberatung/">Rechtsberatung</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-781"><a href="https://www.studentenwerk-magdeburg.de/soziales/psb/">PsychoSoziale StudierendenBeratung</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-778"><a href="https://www.studentenwerk-magdeburg.de/soziales/kursangebote/">Kursangebote</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7757"><a href="https://www.studentenwerk-magdeburg.de/soziales/kursangebote/anmeldung/">Online-Anmeldung</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3967"><a href="https://www.studentenwerk-magdeburg.de/soziales/abc/">Beratungs-ABC</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4613"><a href="https://www.studentenwerk-magdeburg.de/category/soziales/">Newsarchiv</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1859"><a href="https://www.studentenwerk-magdeburg.de/soziales/ansprechpartner/">Ansprechpartner</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1898"><a href="https://www.studentenwerk-magdeburg.de/soziales/kontakt/">Kontaktformular</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-73"><a href="https://www.studentenwerk-magdeburg.de/kultur/">Kultur</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9325"><a href="https://www.studentenwerk-magdeburg.de/kultur/campustheater/">CampusTheater</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-794"><a href="https://www.studentenwerk-magdeburg.de/kultur/kulturforderung/">Kulturförderung</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1731"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/">KreativWorkshops</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7740"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/anmeldung/">Online-Anmeldung</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1732"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/wolle-garn/">Dekoratives aus Wolle &#038; Garn</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9254"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/filzwerkstatt/">Filzwerkstatt</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1733"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/fotografie-analog/">Fotografie analog</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1734"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/fotografie-digital/">Fotografie digital</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9268"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/gitarrenspiel/">Gitarrenspiel</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1735"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/keramik/">Keramik</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1736"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/malerei-grafik/">Malerei &#038; Grafik</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1738"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/textiles-gestalten/">Textiles Gestalten</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1739"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/theater/">Theater</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9662"><a href="https://www.studentenwerk-magdeburg.de/kultur/kreativworkshops/graffiti/">Graffiti-Workshop für Anfänger</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-792"><a href="https://www.studentenwerk-magdeburg.de/kultur/studierendentage/">Magdeburger Studierendentage</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5055"><a href="https://www.studentenwerk-magdeburg.de/kultur/studierendentage/download-programmfolder/">Download Programmfolder</a></li>
+		<li class="menu-item menu-item-type-post_type_archive menu-item-object-event menu-item-9854"><a href="https://www.studentenwerk-magdeburg.de/kultur/studierendentage/events/">Veranstaltungen</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-791"><a href="https://www.studentenwerk-magdeburg.de/kultur/mensagalerie/">MensaGalerie</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4616"><a href="https://www.studentenwerk-magdeburg.de/category/kultur/">Newsarchiv</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2352"><a href="https://www.studentenwerk-magdeburg.de/kultur/ansprechpartner/">Ansprechpartner</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1757"><a href="https://www.studentenwerk-magdeburg.de/kultur/kontakt/">Kontaktformular</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-74"><a href="https://www.studentenwerk-magdeburg.de/internationales/">Internationales</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7957"><a href="https://www.studentenwerk-magdeburg.de/internationales/materialien-fuer-auslaendische-studierende/">Materialien für ausländische Studierende</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-488"><a href="https://www.studentenwerk-magdeburg.de/internationales/interkultitreff/">InterKultiTreff</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1230"><a href="https://www.studentenwerk-magdeburg.de/internationales/isic/">International Student Identity Card</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2396"><a href="https://www.studentenwerk-magdeburg.de/internationales/austauschstudierende-in-wernigerode/">Austauschstudierende in Wernigerode</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4615"><a href="https://www.studentenwerk-magdeburg.de/category/internationales/">Newsarchiv</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2001"><a href="https://www.studentenwerk-magdeburg.de/internationales/kontakt/">Kontaktformular</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1208"><a href="https://www.studentenwerk-magdeburg.de/campuskinderzimmer/">CampusKinderzimmer &#038; KiTa CampusKids</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1209"><a href="https://www.studentenwerk-magdeburg.de/campuskinderzimmer/flexible-betreuung/">CampusKinderzimmer – Flexible Betreuung</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2902"><a href="https://www.studentenwerk-magdeburg.de/campuskinderzimmer/flexible-betreuung/anmeldung/">Anmeldung</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2901"><a href="https://www.studentenwerk-magdeburg.de/campuskinderzimmer/flexible-betreuung/abmeldung/">Abmeldung</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2900"><a href="https://www.studentenwerk-magdeburg.de/campuskinderzimmer/flexible-betreuung/nutzungsbedingungen/">Nutzungsbedingungen</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1228"><a href="https://www.studentenwerk-magdeburg.de/campuskinderzimmer/kita/">Kita CampusKids</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3562"><a href="https://www.studentenwerk-magdeburg.de/campuskinderzimmer/kita/bautagebuch/">Bautagebuch</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3252"><a href="https://www.studentenwerk-magdeburg.de/campuskinderzimmer/kita/voranmeldung/">Voranmeldung</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1227"><a href="https://www.studentenwerk-magdeburg.de/campuskinderzimmer/kinderteller/">Kinderteller</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4614"><a href="https://www.studentenwerk-magdeburg.de/category/campuskinderzimmer/">Newsarchiv</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2364"><a href="https://www.studentenwerk-magdeburg.de/campuskinderzimmer/ansprechpartner/">Ansprechpartner</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1999"><a href="https://www.studentenwerk-magdeburg.de/campuskinderzimmer/kontakt/">Kontaktformular</a></li>
+</ul>
+</li>
+</ul></div></div><br />
+<div id="impressum">
+<a title="Kontakt" href="/studentenwerk/kontakt/">(c) 2012 - 2015 by Studentenwerk Magdeburg - Anstalt des öffentlichen Rechts</a><br />
+<span class="noprint">[<a href="https://www.studentenwerk-magdeburg.de/studentenwerk/impressum/">Impressum</a>]&nbsp;&nbsp;&nbsp;
+[<a href="https://www.studentenwerk-magdeburg.de/mein-campus/">Mein Campus</a>]&nbsp;&nbsp;&nbsp;
+[<a href="https://www.studentenwerk-magdeburg.de/en/canteens-cafeterias/today-in-our-canteens/">Englisch</a>]</span><br />
+</div></div></div></div>
+
+<!--Plugin WP Overview (lite) 2011.0723.2011 Active--><script type='text/javascript' src='https://www.studentenwerk-magdeburg.de/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"https:\/\/www.studentenwerk-magdeburg.de\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Senden ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.studentenwerk-magdeburg.de/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var spuvar = {"is_admin":"","disable_style":"","safe_mode":"","ajax_mode":"1","ajax_url":"https:\/\/www.studentenwerk-magdeburg.de\/wp-admin\/admin-ajax.php","ajax_mode_url":"https:\/\/www.studentenwerk-magdeburg.de\/?spu_action=spu_load&lang=de","pid":"6127","is_front_page":"","is_category":"","site_url":"https:\/\/www.studentenwerk-magdeburg.de","is_archive":"","is_search":"","seconds_confirmation_close":"5"};
+var spuvar_social = [""];
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.studentenwerk-magdeburg.de/wp-content/plugins/popups/public/assets/js/min/public-min.js?ver=1.5.1'></script>
+<script type='text/javascript' src='https://www.studentenwerk-magdeburg.de/wp-includes/js/wp-embed.min.js?ver=4.5.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var icl_vars = {"current_language":"de","icl_home":"https:\/\/www.studentenwerk-magdeburg.de\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.studentenwerk-magdeburg.de/wp-content/plugins/sitepress-multilingual-cms/res/js/sitepress.js?ver=4.5.3'></script>
+<a href="/" accesskey="1"></a>
+<a href="/studentenwerk/sitemap/" accesskey="3"></a>
+<a href="/?s" accesskey="4"></a>
+<a href="#TOP" accesskey="5"></a>
+<a href="#content" accesskey="6"></a>
+<a href="/studentenwerk/impressum/" accesskey="8"></a>
+<a href="/studentenwerk/kontakt/" accesskey="9"></a>
+<a href="/studentenwerk/impressum/webstandards/" accesskey="0"></a>
+</body>
+</html>
