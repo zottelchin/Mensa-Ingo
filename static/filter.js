@@ -17,6 +17,8 @@ function updateFilter(id, fv, fn) {
 function updateFilterS() {
   var fv = [...document.querySelectorAll(".symbol-filter [data-name]")].filter(e => !e.classList.contains("disabled")).map(e => e.getAttribute("data-name")).join(",");
   if (!document.querySelectorAll(".symbol-filter .disabled").length) fv = "";
+  else fv += ",suppe";
+  
   updateFilter("s", fv, (e, fv) =>
     [...e.querySelectorAll(".icons img")].filter(icon => {
       if (fv.indexOf(icon.src.match(/\/mensasym_(.*)\.png$/)[1]) > -1) return true;
