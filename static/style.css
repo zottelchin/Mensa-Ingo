@@ -1,7 +1,161 @@
-table {
-    border-collapse: collapse;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Open+Sans:400,700');
+
+* { box-sizing: border-box; }
+
+html {
+  font-size: 18px;
+  font-family: Open Sans, sans-serif;
 }
 
-table, th, td {
-    border: 1px solid black;
+body {
+  padding: 10px;
+  display: flex;  flex-direction: column;
+  max-width: 900px; margin: 0 auto;
 }
+
+.logo {
+  display: flex; align-items: center; justify-content: center;
+  margin-top: 15px; margin-bottom: 25px;
+}
+.logo img {
+  margin-right: 10px;
+  margin-top: -5px; margin-bottom: 5px;
+}
+.logo h1 {
+  font-size: 1.4rem;
+  color: #2B5166;
+}
+.logo h1 small {
+  font-size: 1rem;
+}
+
+.select {
+  display: flex; align-items: center; flex: none; flex-wrap: wrap;
+  background: #429867; color: #fff;
+  border: 3px solid #429867;
+  border-radius: 4px; overflow: hidden;
+}
+.select>svg {
+  margin: 0 15px;
+}
+.select>label, .select>a {
+  color: inherit; text-decoration: none;
+  padding: 7px 10px; margin: 0 3px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.select>label:not(.selected):hover, .select>a:not(.selected):hover {
+  background: #397a58;
+}
+.select>.selected,
+#price-category-student:checked ~ * label[for="price-category-student"],
+#price-category-staff:checked ~ * label[for="price-category-staff"],
+#price-category-guest:checked ~ * label[for="price-category-guest"] {
+  background: #fff; color: #222;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.select.slim {
+  background: #EEEEF6; border-color: #EEEEF6;
+  color: #555;
+  font-size: 0.8rem;
+}
+.select.slim>label, .select.slim>a { padding: 4px 8px; }
+.select.slim>label:not(.selected):hover, .select.slim>a:not(.selected):hover { background: #e0e0eb; }
+
+.select a {
+  font-size: 0.9rem;
+  display: inline-flex; flex-direction: column; align-items: center;
+}
+.select small {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 0.75rem;
+}
+
+main {
+  margin-bottom: 1rem;
+}
+h2 {
+  font-size: 1.4rem;
+  text-align: center;
+  color: #2B5166;
+  margin: 1rem 0 0;
+}
+address {
+  font-size: 0.8rem; font-style: normal;
+  text-align: center;
+  color: #2B5166;
+  margin: 0 0 1rem;
+}
+
+.dish {
+  border: 3px solid #FAB243;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+.dish h3 {
+  margin: 0; padding: 5px 8px 8px;
+  font-size: 1rem;
+  font-weight: normal;
+  background: #FAB243;
+}
+.dish .price, .dish .hints {
+  display: inline-block;
+  margin: 9px;
+}
+.dish .price { font-weight: bold; }
+.dish .hints { color: #444; margin-left: 0; }
+.dish .icons { float: right; margin: 5px;}
+
+.closed {
+  border: 3px solid #E02130; background: #E02130;
+  border-radius: 4px;
+  margin-bottom: 0.5rem; padding: 10px;
+  color: #fff; font-weight: bold; text-align: center;
+}
+.closed label { color: #fff; text-decoration: underline; cursor: pointer; display: inline; }
+.show-closed { display: none; }
+.show-closed:checked ~ .closed label, .show-closed:not(:checked) ~ .dish { display: none; }
+
+body>.hints {
+  background: #EEEEF6;
+  border-radius: 4px;
+  padding: 9px;
+  color: #555;
+  
+  
+  font-size: 0.8rem;
+  line-height: 1.1;
+  margin-top: 0.5rem;
+}
+body>.hints label {
+  color: #04b; text-decoration: underline; cursor: pointer;
+}
+body>.hints h3 {
+  font-size: 1rem;
+  margin: 0.5rem 0 3px;
+}
+body>.hints table { border-collapse: collapse; width: 100%; }
+body>.hints table tr {
+  border: 1px solid rgba(0,0,0,0.1);
+  background: rgba(0,0,0,0.02);
+}
+body>.hints table tr:nth-child(odd) {
+  background: rgba(0,0,0,0.05);
+}
+body>.hints table td {
+  padding: 2px;
+}
+body>.hints table td:first-child {
+  text-align: right;
+  width: 0;
+  font-weight: bold;
+}
+
+body>.hints>input:not(:checked) ~ :not(label), body>.hints>input:not(:checked) ~ * .hints-visible { display: none; }
+body>.hints>input:checked ~ * .hints-hidden { display: none; }
+
+[name="price-category"] { display: none; }
+#price-category-student:checked ~ * .price:not([data-price-category="student"]),
+#price-category-staff:checked ~ * .price:not([data-price-category="staff"]),
+#price-category-guest:checked ~ * .price:not([data-price-category="guest"]){ display: none; }

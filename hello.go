@@ -1,10 +1,10 @@
 package main
 
 import (
-	"html/template"
 	"io/ioutil"
 	"net/http"
-	"regexp"
+	"os"
+	"path/filepath"
 	"strconv"
 	"strings"
 	"time"
@@ -13,32 +13,29 @@ import (
 )
 
 var url = "https://www.studentenwerk-magdeburg.de/mensen-cafeterien/heute-in-unseren-mensen/"
-var menu = ""
-
-func gethtml() string {
-	// Get content
-	cont := menu
-	content := string(cont[:])
-
-	re := regexp.MustCompile("(<div\\sclass='mensa'>.*</div>)|(<h4>.*</h4>)")
-	match := re.FindAllStringSubmatch(content, -1)
-	re3 := regexp.MustCompile("(<td\\sstyle='t(?:(?U).*)</td>)|(<a(?:(?U).*)>)|(</a>)")
-	for i := 0; i < len(match); i++ {
-		match[i][0] = re3.ReplaceAllString(match[i][0], "")
-	}
-	re4 := regexp.MustCompile("<span\\sclass='grau(?:(?U).*)</strong>")
-	for i := 0; i < len(match); i++ {
-		match[i][0] = re4.ReplaceAllString(match[i][0], "</strong>")
-	}
-	lastUpdateh = time.Now().Hour()
-	lastUpdated = time.Now().Day()
-
-	content = "<p>Letztes Update der Daten am " + strconv.Itoa(lastUpdated) + ". um " + strconv.Itoa(lastUpdateh) + " Uhr</p><h4>Mensa UniCampus Magdeburg, unterer Saal</h4>"
-	for i := 0; i < len(match); i++ {
-		content += match[i][0]
-	}
-
-	return content
+var menu = []Mensa{
+	Mensa{
+		"Unterer Saal der Mensa UniCampus",
+		[7]OpeningHours{
+			OpeningHours{10*time.Hour + 45*time.Minute, 14 * time.Hour},
+			OpeningHours{10*time.Hour + 45*time.Minute, 14 * time.Hour},
+			OpeningHours{10*time.Hour + 45*time.Minute, 14 * time.Hour},
+			OpeningHours{10*time.Hour + 45*time.Minute, 14 * time.Hour},
+			OpeningHours{10*time.Hour + 45*time.Minute, 14 * time.Hour},
+			OpeningHours{12 * time.Hour, 13*time.Hour + 30*time.Minute},
+			OpeningHours{},
+		},
+		map[Date][]Dish{
+			Date{2018, time.January, 19}: []Dish{
+				Dish{
+					"Aktion: Gemüse-Knusperschnitzel Gärtnerin Art mit Sauce Hollandaise",
+					Price{135, 240, 310},
+					[]string{"a1", "c", "g", "i"},
+					[]string{"vegetarisch", "knoblauch"},
+				},
+			},
+		},
+	},
 }
 
 func updateMenu() error {
@@ -48,11 +45,11 @@ func updateMenu() error {
 	}
 	defer response.Body.Close()
 
-	content, err := ioutil.ReadAll(response.Body)
+	_, err = ioutil.ReadAll(response.Body)
 	if err != nil {
 		return err
 	}
-	menu = string(content)
+	//menu = string(content)
 	return nil
 }
 
@@ -63,17 +60,43 @@ func scheduleUpdate() {
 	}
 }
 
+func isMensaOpenOn(d Date) bool {
+	for _, m := range menu {
+		if m.Open[d.Weekday()].Format() != "geschlossen" {
+			return true
+		}
+	}
+	return false
+}
+
 func handler(c *gin.Context) {
 	offset := c.Param("offset")
+	day := 0
 	if offset != "" {
-		i, err := strconv.Atoi(offset)
-		if !(err == nil && i >= 1 && i <= 6) {
+		var err error
+		day, err = strconv.Atoi(offset)
+		if !(err == nil && day >= 1 && day <= 6) {
 			notFound(c)
 			return
 		}
 	}
-	c.HTML(http.StatusOK, "mensa.html", map[string]interface{}{
-		"content": template.HTML(gethtml()),
+
+	t := Today()
+	days := make([]Date, 7)
+	days[0] = t
+
+	for i := 1; i < 7; i++ {
+		days[i] = days[i-1].Offset(1)
+		for !isMensaOpenOn(days[i]) {
+			days[i] = days[i].Offset(1)
+		}
+	}
+
+	c.HTML(http.StatusOK, "mensa.html", TemplateData{
+		days,
+		day,
+		[]string{"Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"},
+		menu,
 	})
 }
 

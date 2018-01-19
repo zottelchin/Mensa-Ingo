@@ -1,12 +1,113 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Mensa</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        {{.content}}
-    </body>
+  <head>
+    <title>Speiseplan für die Magdeburger Mensen</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+  </head>
+  <body>
+    <!-- Price category selection (Logic) -->
+    <input type="radio" name="price-category" id="price-category-student" value="student" onchange="updatePriceCategory()" checked>
+    <input type="radio" name="price-category" id="price-category-staff" value="staff" onchange="updatePriceCategory()" >
+    <input type="radio" name="price-category" id="price-category-guest" value="guest" onchange="updatePriceCategory()">
+    <script>
+      // Load preferred price category from localStorage
+      (document.getElementById("price-category-" + localStorage.getItem("price-category"))||{checked:false}).checked = true;
+      // Store to localStorage
+      function updatePriceCategory() { localStorage.setItem("price-category", [...document.getElementsByName("price-category")].filter(e => e.checked)[0].value); }
+    </script>
+    
+    <div class="logo">
+      <img src="logo.png" width="96">
+      <h1>Speiseplan<br><small>Magdeburger Mensen</small></h1>
+    </div>
+    
+    <!-- Date selection -->
+    <aside class="select">
+      <i class="fa fa-calendar-alt"></i>
+      {{ range $i, $d := .Days }}<a href="/{{ if gt $i 0 }}+{{ $i }}{{ end }}"{{ if eq $i $.Day }} class="selected"{{end}}>{{ index $.Weekdays .Weekday }} <small>{{ .Day }}.{{ .MonthInt }}.</small></a>
+      {{ end }}
+    </aside>
+    
+    <!-- Food plan -->
+    <main>
+      {{ range $i, $m := .Menu }}<div>
+        <h2>{{ .Name }}</h2>
+        <address>Heute geöffnet: {{ (index .Open (index $.Days $.Day).Weekday).Format }}</address>
+        {{ if and (index $.Days $.Day).IsToday (index .Open (index $.Days $.Day).Weekday).AlreadyClosed }}<input type="checkbox" class="show-closed" id="show-mensa-{{ $i }}"><script>document.getElementById("show-mensa-{{ $i }}").checked = false;</script>
+        <div class="closed">Diese Mensa hat heute bereits geschlossen. <label for="show-mensa-{{ $i }}">Trotzdem anzeigen</label></div>
+        {{ end }}{{ range index .Food (index $.Days $.Day) }}<div class="dish">
+          <h3>{{ .Name }}</h3>
+          <small class="price" data-price-category="student">{{ .Price.Format "student" }}</small>
+          <small class="price" data-price-category="staff">{{ .Price.Format "staff" }}</small>
+          <small class="price" data-price-category="guest">{{ .Price.Format "guest" }}</small>
+          <small class="hints">{{ range $h := .Hints }}({{ $h }}) {{ end }}</small>
+
+          <div class="icons">
+            {{ range $h := .Icons }}<img src="https://www.studentenwerk-magdeburg.de/wp-content/themes/swmd2012/mensasym/mensasym_{{ $h }}.png">
+            {{end}}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+      {{ end }}
+    </main>
+    
+    <!-- Price category selection (UI) -->
+    <aside class="select slim">
+      <i class="fa fa-dollar-sign"></i>
+      <label for="price-category-student">Student</label>
+      <label for="price-category-staff">Bediensteter</label>
+      <label for="price-category-guest">Gast</label>
+    </aside>
+    
+    <!-- Additives --> 
+    <div class="hints">
+      <input type="checkbox" id="show-hints" style="display: none"><script>document.getElementById("show-hints").checked = false;</script>
+      <label for="show-hints">Zusatzstoffe und Allergene <span class="hints-hidden">anzeigen</span><span class="hints-visible">verstecken</span></label>
+      <h3>Zusatzstoffe:</h3>
+      <table>
+        <tr><td>(1)</td><td>mit Farbstoff</td></tr>
+        <tr><td>(2)</td><td>mit Konservierungsstoff</td></tr>
+        <tr><td>(3)</td><td>mit Antioxidationsmittel</td></tr>
+        <tr><td>(4)</td><td>mit Geschmacksverstärker</td></tr>
+        <tr><td>(5)</td><td>geschwefelt</td></tr>
+        <tr><td>(6)</td><td>gewachst</td></tr>
+        <tr><td>(7)</td><td>geschwärzt</td></tr>
+        <tr><td>(8)</td><td>mit Phosphat</td></tr>
+        <tr><td>(9)</td><td>mit Süßungsmitteln</td></tr>
+        <tr><td>(10)</td><td>enthält eine Phenylalaninquelle</td></tr>
+      </table>
+      <h3>Allergene:</h3>
+      <table>
+        <tr><td>(a1)</td><td>enthält Gluten: Weizen</td></tr>
+        <tr><td>(a2)</td><td>enthält Gluten: Roggen</td></tr>
+        <tr><td>(a3)</td><td>enthält Gluten: Gerste</td></tr>
+        <tr><td>(a4)</td><td>enthält Gluten: Hafer</td></tr>
+        <tr><td>(a5)</td><td>enthält Gluten: Dinkel</td></tr>
+        <tr><td>(a6)</td><td>enthält Gluten: Kamut</td></tr>
+        <tr><td>(b)</td><td>enthält Krebstiere</td></tr>
+        <tr><td>(c)</td><td>enthält Ei</td></tr>
+        <tr><td>(d)</td><td>enthält Fisch</td></tr>
+        <tr><td>(e)</td><td>enthält Erdnüsse</td></tr>
+        <tr><td>(f)</td><td>enthält Soja</td></tr>
+        <tr><td>(g)</td><td>enthält Milch/Milchzucker</td></tr>
+        <tr><td>(h1)</td><td>enthält Schalenfrüchte/Nüsse: Mandeln</td></tr>
+        <tr><td>(h2)</td><td>enthält Schalenfrüchte/Nüsse: Haselnüsse</td></tr>
+        <tr><td>(h3)</td><td>enthält Schalenfrüchte/Nüsse: Walnüsse</td></tr>
+        <tr><td>(h4)</td><td>enthält Schalenfrüchte/Nüsse: Cashewnüsse</td></tr>
+        <tr><td>(h5)</td><td>enthält Schalenfrüchte/Nüsse: Pecannüsse</td></tr>
+        <tr><td>(h6)</td><td>enthält Schalenfrüchte/Nüsse: Paranüsse</td></tr>
+        <tr><td>(i)</td><td>enthält Sellerie</td></tr>
+        <tr><td>(j)</td><td>enthält Senf</td></tr>
+        <tr><td>(k)</td><td>enthält Sesam</td></tr>
+        <tr><td>(l)</td><td>enthält Sulfit/Schwefeldioxid</td></tr>
+        <tr><td>(m)</td><td>enthält Lupine</td></tr>
+        <tr><td>(n)</td><td>enthält Weichtiere</td></tr>
+      </table>
+    </div>
+  </body>
 </html>
