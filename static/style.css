@@ -15,11 +15,10 @@ body {
 
 .logo {
   display: flex; align-items: center; justify-content: center;
-  margin-top: 15px; margin-bottom: 25px;
+  margin-top: 5px; margin-bottom: 15px;
 }
 .logo img {
-  margin-right: 10px;
-  margin-top: -5px; margin-bottom: 5px;
+  margin-right: 15px;
 }
 .logo h1 {
   font-size: 1.4rem;
@@ -29,7 +28,7 @@ body {
   font-size: 1rem;
 }
 
-.select {
+.select, .filter {
   display: flex; align-items: center; flex: none; flex-wrap: wrap;
   background: #429867; color: #fff;
   border: 3px solid #429867;
@@ -40,7 +39,7 @@ body {
 }
 .select>label, .select>a {
   color: inherit; text-decoration: none;
-  padding: 7px 10px; margin: 0 3px;
+  padding: 3px 10px; margin: 0 3px;
   border-radius: 4px;
   cursor: pointer;
 }
@@ -55,13 +54,21 @@ body {
   font-weight: bold;
   border-radius: 4px;
 }
-.select.slim {
+.select.slim, .filter {
   background: #EEEEF6; border-color: #EEEEF6;
   color: #555;
   font-size: 0.8rem;
 }
 .select.slim>label, .select.slim>a { padding: 4px 8px; }
 .select.slim>label:not(.selected):hover, .select.slim>a:not(.selected):hover { background: #e0e0eb; }
+
+.filter { display: grid; grid-template-columns: 1fr 1fr; align-items: flex-start; padding: 2px; margin-top: 0.5rem; }
+.filter>div { padding: 5px; }
+.filter input, .filter select { width: 100%; }
+.filter label { font-weight: bold; display: block; margin-bottom: 2px; }
+.symbol-filter img { cursor: pointer; max-width: 14.2857%; }
+.symbol-filter img.disabled { opacity: 0.5; filter: grayscale(80%); }
+.symbol-filter a { color: #04b; cursor: pointer; text-decoration: underline; }
 
 .select a {
   font-size: 0.9rem;
@@ -88,24 +95,26 @@ address {
   margin: 0 0 1rem;
 }
 
-.dish {
+.meal {
   border: 3px solid #FAB243;
   border-radius: 4px;
   margin-bottom: 0.5rem;
 }
-.dish h3 {
+.meal h3 {
   margin: 0; padding: 5px 8px 8px;
   font-size: 1rem;
   font-weight: normal;
   background: #FAB243;
 }
-.dish .price, .dish .hints {
+.meal .price, .meal .hints {
   display: inline-block;
   margin: 9px;
 }
-.dish .price { font-weight: bold; }
-.dish .hints { color: #444; margin-left: 0; }
-.dish .icons { float: right; margin: 5px;}
+.meal .price { font-weight: bold; }
+.meal .hints { color: #444; margin-left: 0; }
+.meal .icons { float: right; margin: 5px; }
+
+.hide-filter-a, .hide-filter-s { display: none; }
 
 .closed {
   border: 3px solid #E02130; background: #E02130;
@@ -115,7 +124,7 @@ address {
 }
 .closed label { color: #fff; text-decoration: underline; cursor: pointer; display: inline; }
 .show-closed { display: none; }
-.show-closed:checked ~ .closed label, .show-closed:not(:checked) ~ .dish { display: none; }
+.show-closed:checked ~ .closed label, .show-closed:not(:checked) ~ .meal { display: none; }
 
 body>.hints {
   background: #EEEEF6;
@@ -159,3 +168,11 @@ body>.hints>input:checked ~ * .hints-hidden { display: none; }
 #price-category-student:checked ~ * .price:not([data-price-category="student"]),
 #price-category-staff:checked ~ * .price:not([data-price-category="staff"]),
 #price-category-guest:checked ~ * .price:not([data-price-category="guest"]){ display: none; }
+
+footer {
+    color: #666;
+    font-size: 0.8rem; line-height: 1.2;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+footer a { color: #04b; }
