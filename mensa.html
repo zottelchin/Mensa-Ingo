@@ -22,7 +22,7 @@
     
     <div class="logo">
       <img src="logo.png" width="96">
-      <h1>Speiseplan<br><small>Magdeburger Mensen</small></h1>
+      <h1>Speiseplan<br><small>Mensen an der OVGU</small></h1>
     </div>
     
     <!-- Date selection -->
@@ -36,10 +36,13 @@
     <main>
       {{ range $i, $m := .Menu }}<div>
         <h2>{{ .Name }}</h2>
-        <address>Heute geöffnet: {{ (index .Open (index $.Days $.Day).Weekday).Format }}</address>
+        <address>
+            Öffnungszeiten: {{ (index .Open (index $.Days $.Day).Weekday).Format }}<br>
+            <strong>Beilagen</strong>{{ range $s := index .Sides (index $.Days $.Day) }} &bull; {{ $s }}{{ end }}
+        </address>
         {{ if and (index $.Days $.Day).IsToday (index .Open (index $.Days $.Day).Weekday).AlreadyClosed }}<input type="checkbox" class="show-closed" id="show-mensa-{{ $i }}"><script>document.getElementById("show-mensa-{{ $i }}").checked = false;</script>
         <div class="closed">Diese Mensa hat heute bereits geschlossen. <label for="show-mensa-{{ $i }}">Trotzdem anzeigen</label></div>
-        {{ end }}{{ range index .Food (index $.Days $.Day) }}<div class="dish">
+        {{ end }}{{ range index .Meals (index $.Days $.Day) }}<div class="dish">
           <h3>{{ .Name }}</h3>
           <small class="price" data-price-category="student">{{ .Price.Format "student" }}</small>
           <small class="price" data-price-category="staff">{{ .Price.Format "staff" }}</small>
@@ -47,7 +50,7 @@
           <small class="hints">{{ range $h := .Hints }}({{ $h }}) {{ end }}</small>
 
           <div class="icons">
-            {{ range $h := .Icons }}<img src="https://www.studentenwerk-magdeburg.de/wp-content/themes/swmd2012/mensasym/mensasym_{{ $h }}.png">
+            {{ range .Icons }}<img src="https://www.studentenwerk-magdeburg.de/wp-content/themes/swmd2012/mensasym/mensasym_{{ .Name }}.png" alt="{{ .Title }}" title="{{ .Title }}">
             {{end}}
           </div>
         </div>

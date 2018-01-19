@@ -7,16 +7,22 @@ import (
 )
 
 type Mensa struct {
-	Name string
-	Open [7]OpeningHours
-	Food map[Date][]Dish
+	Name  string
+	Open  [7]OpeningHours
+	Meals map[Date][]Meal
+	Sides map[Date][]string
 }
 
-type Dish struct {
+type Meal struct {
 	Name  string
 	Price Price
 	Hints []string
-	Icons []string
+	Icons []Icon
+}
+
+type Icon struct {
+	Name  string
+	Title string
 }
 
 type Price struct {
@@ -59,6 +65,13 @@ func (o OpeningHours) AlreadyClosed() bool {
 	h := time.Duration(n.Hour()) * time.Hour
 	m := time.Duration(n.Minute()) * time.Minute
 	return h+m >= o.Closes
+}
+
+func NewOpeningHours(oh, om, ch, cm int) OpeningHours {
+	return OpeningHours{
+		time.Duration(oh)*time.Hour + time.Duration(om)*time.Minute,
+		time.Duration(ch)*time.Hour + time.Duration(cm)*time.Minute,
+	}
 }
 
 type Date struct {
