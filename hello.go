@@ -1,31 +1,25 @@
 package main
 
 import (
-	"fmt"
+	"html/template"
 	"io/ioutil"
-	"log"
 	"net/http"
 	"os"
 	"path/filepath"
 	"regexp"
+	"strconv"
+	"strings"
+	"time"
+
+	"github.com/gin-gonic/gin"
 )
 
-var url string = "https://www.studentenwerk-magdeburg.de/mensen-cafeterien/heute-in-unseren-mensen/"
-
-func handler(w http.ResponseWriter, r *http.Request) {
-	content := gethtml()
-	_, err := fmt.Fprintf(w, "%s", content)
-	if err != nil {
-		panic(err)
-	}
-}
+var url = "https://www.studentenwerk-magdeburg.de/mensen-cafeterien/heute-in-unseren-mensen/"
+var menu = ""
 
 func gethtml() string {
-	read, _ := ioutil.ReadFile("start.html")
-	htmlStart := string(read[:])
-	read, _ = ioutil.ReadFile("End.html")
-	htmlEnd := string(read[:])
-	cont, _ := ioutil.ReadFile("menu.txt")
+	// Get content
+	cont := menu
 	content := string(cont[:])
 	re := regexp.MustCompile("(<div\\sclass='mensa'>.*</div>)|(<h4>.*</h4>)")
 	match := re.FindAllStringSubmatch(content, -1)
@@ -41,32 +35,73 @@ func gethtml() string {
 	for i := 0; i < len(match); i++ {
 		content += match[i][0]
 	}
-	return htmlStart + content + htmlEnd
+
+	return content
+}
+
+func updateMenu() error {
+	response, err := http.Get(url)
+	if err != nil {
+		return err
+	}
+	defer response.Body.Close()
+
+	content, err := ioutil.ReadAll(response.Body)
+	if err != nil {
+		return err
+	}
+	menu = string(content)
+	return nil
+}
+
+func scheduleUpdate() {
+	for {
+		time.Sleep(1 * time.Hour)
+		updateMenu()
+	}
+}
+
+func handler(c *gin.Context) {
+	offset := c.Param("offset")
+	if offset != "" {
+		i, err := strconv.Atoi(offset)
+		if !(err == nil && i >= 1 && i <= 6) {
+			notFound(c)
+			return
+		}
+	}
+	c.HTML(http.StatusOK, "mensa.html", map[string]interface{}{
+		"content": template.HTML(gethtml()),
+	})
+}
+
+func notFound(c *gin.Context) {
+	c.HTML(http.StatusNotFound, "404.html", nil)
 }
 
 func main() {
-	// startup()
-	// port := ":8080"
-	// http.HandleFunc("/", handler)
-	// http.ListenAndServe(port, nil)
-	// fmt.Println(port)
-	// fmt.Print(gethtml())
-	dir, err := filepath.Abs(filepath.Dir(os.Args[0]))
-	if err != nil {
-		log.Fatal(err)
-	}
-	fmt.Println(dir)
-}
-func startup() {
-	resp, err := http.Get(url)
-	if err != nil {
-		panic(err)
-	}
-	defer resp.Body.Close()
+	var err error
 
-	cont, err := ioutil.ReadAll(resp.Body)
-	if err != nil {
+	// Load Menu
+	if err = updateMenu(); err != nil {
 		panic(err)
 	}
-	ioutil.WriteFile("menu.txt", cont, 0600)
+	go scheduleUpdate()
+
+	// Start Server
+	r := gin.Default()
+	r.LoadHTMLGlob("*.html")
+
+	r.GET("/", handler)
+	r.GET("/+:offset", handler)
+
+	filepath.Walk("static", func(path string, f os.FileInfo, err error) error {
+		if !f.IsDir() {
+			r.StaticFile(strings.TrimPrefix(path, "static/"), path)
+		}
+		return nil
+	})
+
+	r.NoRoute(notFound)
+	r.Run()
 }
