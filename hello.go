@@ -6,20 +6,15 @@ import (
 	"os"
 	"path/filepath"
 	"regexp"
-<<<<<<< HEAD
-=======
 	"strconv"
 	"strings"
->>>>>>> 302b2881c04aedf42f6434a9cfee23e11963ae6a
 	"time"
 
 	"github.com/PuerkitoBio/goquery"
 	"github.com/gin-gonic/gin"
 )
 
-<<<<<<< HEAD
-var url string = "https://www.studentenwerk-magdeburg.de/mensen-cafeterien/heute-in-unseren-mensen/"
-=======
+
 // TODO: Mensen nicht hardcoden sondern aus Config-Datei laden
 var urls = []string{
 	"https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensa-unicampus/speiseplan-unten/",
@@ -82,7 +77,6 @@ func updateMenu() {
 				return
 			}
 			date := Date{y, time.Month(m), d}
->>>>>>> 302b2881c04aedf42f6434a9cfee23e11963ae6a
 
 			// Each meal in the table
 			results := e.Find("tbody tr")
@@ -137,21 +131,7 @@ func updateMenu() {
 	}
 }
 
-<<<<<<< HEAD
-func gethtml() string {
-	cont, _ := ioutil.ReadFile("menu.txt")
-	content := string(cont[:])
-	return content
-}
 
-func main() {
-	update()
-	go schedultUpdate()
-	fmt.Println("Got Mensa Page. Starting Server")
-	port := ":8080"
-	http.HandleFunc("/", handler)
-	http.ListenAndServe(port, nil)
-=======
 func scheduleUpdate() {
 	for {
 		time.Sleep(1 * time.Hour)
@@ -166,7 +146,6 @@ func isMensaOpenOn(d Date) bool {
 		}
 	}
 	return false
->>>>>>> 302b2881c04aedf42f6434a9cfee23e11963ae6a
 }
 func isMensaStillOpen() bool {
 	for _, m := range menu {
@@ -195,55 +174,6 @@ func handler(c *gin.Context) {
 	if !isMensaStillOpen() {
 		days[0] = days[0].Offset(1)
 	}
-<<<<<<< HEAD
-	re4 := regexp.MustCompile("<span\\sclass='grau(?:(?U).*)<\\/strong>")
-	for i := 0; i < len(match); i++ {
-		match[i][0] = re4.ReplaceAllString(match[i][0], "</strong>")
-	}
-	re5 := regexp.MustCompile("(style=\"(?:(?U).*)\")|(<\\/tr><\\/thead><tbody>)|(<\\/tr><\\/table>)|(<\\/table>)")
-	for i := 0; i < len(match); i++ {
-		match[i][0] = re5.ReplaceAllString(match[i][0], "")
-	}
-	re6 := regexp.MustCompile("<span\\sclass='grau(?:(?U).*)<\\/span>")
-	for i := 0; i < len(match); i++ {
-		match[i][0] = re6.ReplaceAllString(match[i][0], "")
-	}
-	re7 := regexp.MustCompile("(<tr\\s?><td\\s(?:(?U).*)>)|(<table><thead><tr><td(?:(?U).*)>)")
-	for i := 0; i < len(match); i++ {
-		match[i][0] = re7.ReplaceAllString(match[i][0], "<li>")
-	}
-	re8 := regexp.MustCompile("<\\/td>")
-	for i := 0; i < len(match); i++ {
-		match[i][0] = re8.ReplaceAllString(match[i][0], "</li>")
-	}
-	re9 := regexp.MustCompile("<div(?:(?U).*)>")
-	for i := 0; i < len(match); i++ {
-		match[i][0] = re9.ReplaceAllString(match[i][0], "<div class='mensa'><ul>")
-	}
-	re10 := regexp.MustCompile("<\\/div>")
-	for i := 0; i < len(match); i++ {
-		match[i][0] = re10.ReplaceAllString(match[i][0], "</ul></div>")
-	}
-	re11 := regexp.MustCompile("\\|\\s\\d,\\d\\d")
-	for i := 0; i < len(match); i++ {
-		match[i][0] = re11.ReplaceAllString(match[i][0], "")
-	}
-	re12 := regexp.MustCompile("<br\\s\\/>")
-	for i := 0; i < len(match); i++ {
-		match[i][0] = re12.ReplaceAllString(match[i][0], " ")
-	}
-	// re13 := regexp.MustCompile("\\d,\\d\\d")
-	// for i := 0; i < len(match); i++ {
-	// match2 := re13.FindAllStringSubmatch(match[0][0], -1)
-	// for j := 0; j < len(match2); j++ {
-	// 	match[0][0] = re13.ReplaceAllString(match[0][0], match2[j][0]+"&euro;")
-	// 	re13.
-	// }
-	// }
-	content = "<h1>baremetal Mensa Plan</h1><h4>Mensa UniCampus Magdeburg, unterer Saal</h4>"
-	for i := 0; i < len(match); i++ {
-		content += match[i][0]
-=======
 	for !isMensaOpenOn(days[0]) {
 		days[0] = days[0].Offset(1)
 	}
@@ -253,7 +183,6 @@ func handler(c *gin.Context) {
 		for !isMensaOpenOn(days[i]) {
 			days[i] = days[i].Offset(1)
 		}
->>>>>>> 302b2881c04aedf42f6434a9cfee23e11963ae6a
 	}
 
 	c.HTML(http.StatusOK, "mensa.html", TemplateData{
@@ -289,12 +218,4 @@ func main() {
 
 	r.NoRoute(notFound)
 	r.Run()
-}
-
-func schedultUpdate() {
-	for {
-		time.Sleep(2 * time.Hour)
-		update()
-		fmt.Println("Data updated.")
-	}
 }
