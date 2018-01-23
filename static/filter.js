@@ -46,6 +46,12 @@ function symbolFilter(fv) {
 
 
 // Restore
+if (window.location.hash == "#v") {
+  localStorage.setItem("filter-s", "vegetarisch,vegan,suppe")
+} else if (window.location.hash == "#vv") {
+  localStorage.setItem("filter-s", "vegan,suppe")
+}
+
 var fs = localStorage.getItem("filter-s");
 if (fs) {
     [...document.querySelectorAll(".symbol-filter [data-name]")].forEach(e => e.classList.add("disabled"));
