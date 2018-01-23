@@ -49,7 +49,7 @@ function symbolFilter(fv) {
 var fs = localStorage.getItem("filter-s");
 if (fs) {
     [...document.querySelectorAll(".symbol-filter [data-name]")].forEach(e => e.classList.add("disabled"));
-    fs.split(",").forEach(x => document.querySelector(".symbol-filter [data-name=\"" + x + "\"]").classList.remove("disabled"));
+    fs.split(",").filter(x => x && x != "suppe").forEach(x => document.querySelector(".symbol-filter [data-name=\"" + x + "\"]").classList.remove("disabled"));
 }
 document.getElementById("filter-a").value = localStorage.getItem("filter-a");
   
