@@ -43,7 +43,7 @@ func (p Price) Format(t string) string {
 		return "---"
 	}
 
-	return strconv.Itoa(price/100) + "," + strconv.Itoa(price%100) + " €"
+	return strconv.Itoa(price/100) + "," + fmt.Sprintf("%02d", price%100) + " €"
 }
 
 type OpeningHours struct {

@@ -113,7 +113,7 @@ func updateMenu() {
 
 					// Parse name
 					name := e.Find("strong").Get(0).FirstChild
-					if name.Data == "span" {
+					for name.Data == "span" {
 						name = name.FirstChild
 					}
 
