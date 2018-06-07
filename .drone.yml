@@ -12,7 +12,7 @@ pipeline:
 
   publish:
     image: plugins/docker
-    repo: zottelchin/Mensa-Ingo
+    repo: zottelchin/mensa-ingo
     tags: latest
     dockerfile: Dockerfile-CI
     secrets: [ docker_username, docker_password ]
