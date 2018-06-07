@@ -14,7 +14,6 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-
 // TODO: Mensen nicht hardcoden sondern aus Config-Datei laden
 var urls = []string{
 	"https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensa-unicampus/speiseplan-unten/",
@@ -130,7 +129,6 @@ func updateMenu() {
 		})
 	}
 }
-
 
 func scheduleUpdate() {
 	for {
