@@ -1,0 +1,13 @@
+# This Dockerfile only adds already built files to a container.
+# It's intended for use with a CI that already builds backend and frontend itself.
+
+FROM scratch
+
+COPY Mensa-Ingo /Mensa-Ingo
+COPY static /static
+
+WORKDIR /
+ENV GIN_MODE=release
+EXPOSE 8700
+
+ENTRYPOINT [ "/Mensa-Ingo" ]
