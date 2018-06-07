@@ -1,8 +1,14 @@
 # This Dockerfile only adds already built files to a container.
 # It's intended for use with a CI that already builds backend and frontend itself.
 
-FROM scratch
+FROM alpine:latest as network
+RUN apk --no-cache add tzdata zip ca-certificates
+WORKDIR /usr/share/zoneinfo
+RUN zip -r -0 /zoneinfo.zip .
 
+FROM scratch
+COPY --from=network /zoneinfo.zip /
+COPY --from=network /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 COPY Mensa-Ingo /Mensa-Ingo
 COPY static /static
 COPY 404.html /404.html
