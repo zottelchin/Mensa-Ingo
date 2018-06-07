@@ -5,6 +5,8 @@ FROM scratch
 
 COPY Mensa-Ingo /Mensa-Ingo
 COPY static /static
+COPY 404.html /404.html
+COPY mensa.html /mensa.html
 
 WORKDIR /
 ENV GIN_MODE=release
