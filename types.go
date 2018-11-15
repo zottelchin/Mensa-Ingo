@@ -113,3 +113,21 @@ type TemplateData struct {
 	Weekdays []string
 	Menu     []Mensa
 }
+
+type Config struct {
+	Mensen []struct {
+		Name         string           `json:"name"`
+		URL          string           `json:"url"`
+		OpeningHours jsonOpeningHours `json:"openingHours"`
+	} `json:"mensen"`
+}
+
+type jsonOpeningHours struct {
+	Mo []int `json:"Mo"`
+	Di []int `json:"Di"`
+	Mi []int `json:"Mi"`
+	Do []int `json:"Do"`
+	Fr []int `json:"Fr"`
+	Sa []int `json:"Sa"`
+	So []int `json:"So"`
+}

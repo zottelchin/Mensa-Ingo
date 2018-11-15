@@ -1,6 +1,9 @@
 package main
 
 import (
+	"encoding/json"
+	"fmt"
+	"io/ioutil"
 	"log"
 	"net/http"
 	"os"
@@ -14,7 +17,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-// TODO: Mensen nicht hardcoden sondern aus Config-Datei laden
+// Load Uni Mensa Magdeburg on default
 var urls = []string{
 	"https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensa-unicampus/speiseplan-unten/",
 	"https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensa-unicampus/speiseplan-oben/",
@@ -195,7 +198,68 @@ func notFound(c *gin.Context) {
 	c.HTML(http.StatusNotFound, "404.html", nil)
 }
 
+func loadConfig() {
+	configFile, err := os.Open("config.json")
+	if err != nil {
+		fmt.Errorf("%v", err)
+		return
+	}
+	defer configFile.Close()
+
+	byteValue, _ := ioutil.ReadAll(configFile)
+	config := Config{}
+	json.Unmarshal(byteValue, &config)
+
+	//parse Mensen to global vars
+	urls = []string{}
+	menu = []Mensa{}
+	for _, m := range config.Mensen {
+		urls = append(urls, m.URL)
+		tmp := Mensa{
+			m.Name,
+			doSomeMagic(m.OpeningHours),
+			map[Date][]Meal{},
+			map[Date][]string{},
+		}
+		menu = append(menu, tmp)
+	}
+}
+
+func doSomeMagic(open jsonOpeningHours) [7]OpeningHours {
+	Mo := OpeningHours{}
+	if open.Mo[0] != -1 {
+		Mo = NewOpeningHours(open.Mo[0], open.Mo[1], open.Mo[2], open.Mo[3])
+	}
+	Di := OpeningHours{}
+	if open.Di[0] != -1 {
+		Di = NewOpeningHours(open.Di[0], open.Di[1], open.Di[2], open.Di[3])
+	}
+	Mi := OpeningHours{}
+	if open.Mi[0] != -1 {
+		Mi = NewOpeningHours(open.Mi[0], open.Mi[1], open.Mi[2], open.Mi[3])
+	}
+	Do := OpeningHours{}
+	if open.Do[0] != -1 {
+		Do = NewOpeningHours(open.Do[0], open.Do[1], open.Do[2], open.Do[3])
+	}
+	Fr := OpeningHours{}
+	if open.Fr[0] != -1 {
+		Fr = NewOpeningHours(open.Fr[0], open.Fr[1], open.Fr[2], open.Fr[3])
+	}
+	Sa := OpeningHours{}
+	if open.Sa[0] != -1 {
+		Sa = NewOpeningHours(open.Sa[0], open.Sa[1], open.Sa[2], open.Sa[3])
+	}
+	So := OpeningHours{}
+	if open.So[0] != -1 {
+		So = NewOpeningHours(open.So[0], open.So[1], open.So[2], open.So[3])
+	}
+	return [7]OpeningHours{Mo, Di, Mi, Do, Fr, Sa, So}
+}
+
 func main() {
+	// Load Config
+	loadConfig()
 	// Load Menu
 	updateMenu()
 	go scheduleUpdate()

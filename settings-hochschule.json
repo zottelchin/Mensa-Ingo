@@ -1,0 +1,91 @@
+{
+    "mensen": [
+        {
+            "name": "Mensa Herrenkrug Magdeburg",
+            "url": "https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensa-herrenkrug/speiseplan/",
+            "openingHours": {
+                "Mo": [
+                    11,
+                    0,
+                    14,
+                    15
+                ],
+                "Di": [
+                    11,
+                    0,
+                    14,
+                    15
+                ],
+                "Mi": [
+                    11,
+                    0,
+                    14,
+                    15
+                ],
+                "Do": [
+                    11,
+                    0,
+                    14,
+                    15
+                ],
+                "Fr": [
+                    11,
+                    0,
+                    14,
+                    0
+                ],
+                "Sa": [
+                    -1
+                ],
+                "So": [
+                    -1
+                ]
+            }
+        },
+        {
+            "name": "Mensa Stendal",
+            "url": "https://www.studentenwerk-magdeburg.de/mensen-cafeterien/mensa-unicampus/speiseplan-oben/",
+            "openingHours": {
+                "Mo": [
+                    11,
+                    15,
+                    14,
+                    15
+                ],
+                "Di": [
+                    11,
+                    15,
+                    14,
+                    15
+                ],
+                "Mi": [
+                    11,
+                    15,
+                    14,
+                    15
+                ],
+                "Do": [
+                    11,
+                    15,
+                    14,
+                    15
+                ],
+                "Fr": [
+                    11,
+                    15,
+                    14,
+                    15
+                ],
+                "Sa": [
+                    12,
+                    0,
+                    13,
+                    30
+                ],
+                "So": [
+                    -1
+                ]
+            }
+        }
+    ]
+}
