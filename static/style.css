@@ -11,6 +11,7 @@ body {
   padding: 10px;
   display: flex;  flex-direction: column;
   max-width: 900px; margin: 0 auto;
+  backgroud-color: #ffffff;
 }
 
 .logo {
