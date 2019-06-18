@@ -158,6 +158,7 @@ func isMensaStillOpen() bool {
 }
 
 func handler(c *gin.Context) {
+	c.Header("Origin", c.Request.Host)
 	offset := c.Param("offset")
 	day := 0
 	if offset != "" {
