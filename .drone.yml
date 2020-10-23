@@ -18,9 +18,3 @@ pipeline:
     secrets: [ docker_username, docker_password ]
     when:
       branch: master
-
-  deploy:
-    image: plugins/webhook
-    secrets: [ webhook_urls ]
-    when:
-      branch: master
